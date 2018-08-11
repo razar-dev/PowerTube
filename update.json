@@ -1,10 +1,10 @@
 {
-  "latestVersion": "3.2.2",
+  "latestVersion": "3.0.5",
   "latestVersionCode": 40,
   "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=75929447",
   "releaseNotes": [
-    "- First evolution",
-    "- Second evolution",
+    "- Теперь приложение уведомит вас об обновление",
+    "- Исправлена ошибка вызывающая падение при попытке просмотра загружаемого HLS видео",
     "- Bug fixes"
   ]
 }

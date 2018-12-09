@@ -1,11 +1,13 @@
 {
-  "latestVersion": "3.3.8",
-  "latestVersionCode": 45,
-  "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=79915826",
+  "latestVersion": "3.3.9",
+  "latestVersionCode": 47,
+  "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=79927393",
   "releaseNotes": [
     "- Исправлены орфографические ошибки",
     "- Исправлено отображение CheckBox в настройках",
     "- Оптимизация кода приложения",
-    "- Множество других исправлений"
+    "- Множество других исправлений",
+    "- Исправлена ошибка приводящая к закрытию приложения"
+    
   ]
 }

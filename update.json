@@ -1,10 +1,13 @@
 {
-  "latestVersion": "3.5.1",
-  "latestVersionCode": 51,
-  "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=81123521",
+  "latestVersion": "3.7.0",
+  "latestVersionCode": 53,
+  "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=82955762",
   "releaseNotes": [
-    "- Исправлена загрузка HDR видео",
-    "- Исправлены некоторые ошибки в настройках"
+    "- Переработан интерфейс начала загрузки",
+    "- Улучшен алгоритм выбора формата видео",
+    "- Улучшено меню настроек",
+    "- Исправлены ошибки которые приводили к падению приложения",
+    "- Другие изминения и улучшения"
     
   ]
 }

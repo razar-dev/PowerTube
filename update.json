@@ -1,7 +1,7 @@
 {
-  "latestVersion": "3.7.0",
-  "latestVersionCode": 53,
-  "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=82955762",
+  "latestVersion": "3.7.1",
+  "latestVersionCode": 54,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=82985390",
   "releaseNotes": [
     "- Переработан интерфейс начала загрузки",
     "- Улучшен алгоритм выбора формата видео",

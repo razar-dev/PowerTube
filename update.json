@@ -1,11 +1,11 @@
 {
-  "latestVersion": "3.7.8",
-  "latestVersionCode": 60,
-  "url": "http://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=86116268",
+  "latestVersion": "3.7.9",
+  "latestVersionCode": 61,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=86495205",
   "releaseNotes": [
-    "- Загрузчик для VK видео",
+    "- Исправлена загрузка видео с YouTube",
     "- Увеличена отзывчивость интерфейса",
-    "- Исправлена работа ночного режима",
+    "- Оптимизирована работа с сетью",
     "- Множество других изменений"
     
   ]

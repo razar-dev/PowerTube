@@ -1,1 +1,12 @@
-
+{
+  "latestVersion": "9.7.9",
+  "latestVersionCode": 961,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=86495205",
+  "releaseNotes": [
+    "- Исправлена загрузка видео с YouTube",
+    "- Увеличена отзывчивость интерфейса",
+    "- Оптимизирована работа с сетью",
+    "- Множество других изменений"
+    
+  ]
+}

@@ -1,13 +1,9 @@
 {
-  "latestVersion": "3.8.1",
-  "latestVersionCode": 63,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=87166015",
+  "latestVersion": "3.8.2",
+  "latestVersionCode": 64,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=87499146",
   "releaseNotes": [
-    "- Авторизация для загрузки видео с ограничениями VK и YouTube",
-    "- Улучшена работа загрузчика YouTube",
-    "- Улучшена работа загрузчика VK",
-    "- Исправлено отображение пунктов в ночном режиме",
-    "- Другие изменения и улучшения"
+    "- Исправлена загрузка с YouTube"
     
   ]
 }

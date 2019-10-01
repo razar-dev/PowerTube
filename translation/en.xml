@@ -189,4 +189,6 @@
     <string name="about_appver">Version %1$s</string>
     <string name="auth_yes">Signed in</string>
     <string name="auth_no">You are not logged in</string>
+	<string name="no_update">No update</string>
+	
 </resources>

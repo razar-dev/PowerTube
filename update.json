@@ -1,8 +1,8 @@
 {
-  "latestVersion": "4.0.4",
-  "latestVersionCode": 70,
+  "latestVersion": "4.0.5",
+  "latestVersionCode": 71,
   "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=89389003",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.0.4.apk",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.0.5.apk",
   "releaseNotes": [
     "- Перевод на английский",
 	"- Новый способ обновления",

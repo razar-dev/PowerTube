@@ -270,5 +270,6 @@
     <string name="check">ПРОВЕРКА</string>
     <string name="auth_yes">Вход выполнен</string>
     <string name="auth_no">Вход не выполнен</string>
+	<string name="no_update">Обновлений нет</string>
 
 </resources>

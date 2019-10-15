@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ajustes</string>
+    <string name="urll">URL</string>
+    <string name="select_f">Seleccionar formato</string>
+    <string name="format">Formato</string>
+    <string name="download_eta_sec">Queda %1$ds</string>
+    <string name="download_eta_min">Queda %1$dm %2$ds</string>
+    <string name="download_eta_hrs">Queda %1$dh %2$dm %3$ds</string>
+    <string name="download_speed_bytes">%1$d B/s</string>
+    <string name="download_speed_kb">%1$s KB/s</string>
+    <string name="download_speed_mb">%1$s MB/s</string>
+    <string name="pause">PAUSA</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="permission_not_enabled">Por favor, activar el Permiso de Escritura de Almacenamiento Externo</string>
+    <string name="downloading">Descargando…</string>
+    <string name="queued">EN COLA</string>
+    <string name="open_file">Abrir</string>
+    <string name="file_name">Nombre de archivo</string>
+    <string name="load_file">Descargar</string>
+    <string name="file_size">Tamaño de archivo</string>
+    <string name="none">No disponible</string>
+    <string name="select">Seleccionar</string>
+    <string name="save_dir">Directorio a guardar</string>
+    <string name="delete_fl">Eliminar archivo</string>
+    <string name="abaoutsc">Acerca de</string>
+    <string name="clear_all_list">Limpiar lista</string>
+    <string name="list">Lista</string>
+    <string name="error">Error</string>
+    <string name="video_player_on">On</string>
+    <string name="video_player">Reproductor de vídeo</string>
+    <string name="loader_name">Descargador</string>
+    <string name="source_text">Fuente</string>
+    <string name="theme">Estilo</string>
+    <string name="file_path">Carpeta</string>
+    <string name="loaded">Completo</string>
+    <string name="video_res">Resolución</string>
+    <string name="video_player_autoplay">Autoiniciar</string>
+    <string name="main_settings">Principal</string>
+    <string name="del_list">¿Eliminar de la lista?</string>
+    <string name="parser_auto_id_format">ID de formato</string>
+    <string name="server">Servidor</string>
+    <string name="hello">Hola</string>
+    <string name="sort">Ordenar</string>
+    <string name="add_date">Fecha Agregada</string>
+    <string name="parser_auto_mode_name">Modo de selección de formato</string>
+    <string name="autoloadnm">Autocarga</string>
+    <string name="youtube_auto_mp3_m">YouTube a MP3</string>
+    <string name="intro4">Simple</string>
+    <string name="ui_preferences">INTERFAZ DE USUARIO</string>
+    <string name="summary_ui_preference">Ajustes de apariencia</string>
+    <string name="save_dir_summary">Carpeta para guardar vídeo</string>
+    <string name="pleas_wait">Por favor, espere</string>
+    <string name="parser_auto_id_mode">Modo preferido</string>
+    <string name="paralle_count">Número de hilos</string>
+    <string name="paralle_limit">Número de descargas simultáneas</string>
+    <string name="main_edit_hint">Enlace</string>
+    <string name="load_mn">Gestor de descargas</string>
+    <string name="load_mn_summary">Ajustes del Gestor de Descargas</string>
+    <string name="listview_imgv">Mostrar imagen</string>
+    <string name="listview_imgvisible">Mostrar imagen en la lista de descargas</string>
+    <string name="video_player_summary1">Reproducción automática de vídeo</string>
+    <string name="video_player_summary">Mostrar reproductor de vídeo</string>
+    <string name="drawer_all">Todo</string>
+    <string name="drawer_download">Descargando</string>
+    <string name="drawer_ready">Listo</string>
+    <string name="drawer_name_down">Nombre (descending)</string>
+    <string name="drawer_name_up">Nombre (ascending)</string>
+    <string name="drawer_data_up">Fecha (ascending)</string>
+    <string name="drawer_data_down">Fecha (descending))</string>
+    <string name="fetch_notification_download_eta_sec">Queda %1$ds</string>
+    <string name="fetch_notification_download_eta_min">Queda %1$dm %2$ds</string>
+    <string name="fetch_notification_download_eta_hrs">Queda %1$dh %2$dm %3$ds</string>
+    <string name="format_summary">La selección de un formato preferido</string>
+    <string name="theme_dl">Tema elegido</string>
+    <string name="youtube_auto_mp3">Convert downloaded YouTube audio files to MP3</string>
+    <string name="account">Cuenta</string>
+    <string name="add_url">Agregar</string>
+    <string name="appupdater_btn_update">Actualizar</string>
+    <string name="check_update">Comprobar actualización</string>
+    <string name="bug_report">Informe de error</string>
+    <string name="donate">Donar</string>
+    <string name="download_speed">Velocidad de Descarga</string>
+    <string name="download_speed_summary">Mostrar velocidad de descarga</string>
+    <string name="empty_list">Lista vacía</string>
+    <string name="feedback_email">Correo electrónico</string>
+    <string name="feedback_info">Añadir información de dispositivo</string>
+    <string name="feedback_you_text">Por favor, escriba sus comentarios</string>
+    <string name="intro1">Gracias por instalar PowerTube</string>
+    <string name="no">no</string>
+    <string name="other">Otros</string>
+    <string name="token">Info</string>
+    <string name="update">Actualizar</string>
+    <string name="update_now">Actualizar</string>
+    <string name="update_summary">Ajustes de actualización</string>
+    <string name="update_switch_summary">Comprobar si hay actualizaciones al iniciar aplicación</string>
+    <string name="yes">Sí</string>
+    <string name="notsupporttext">Esta información no está disponible para descargas anteriores</string>
+    <string name="clear_all_summary">Los archivos cargados NO serán borrados</string>
+    <string name="check_update_summary">Haga clic para buscar actualizaciones</string>
+    <string name="autoloadnm_summary">Permitir el inicio</string>
+    <string name="auth_summary">Haga clic para iniciar sesión</string>
+    <string name="appupdater_update_available">Nueva versión disponible</string>
+    <string name="add_url_description">Añadir enlace de descarga</string>
+    <string name="account_summary">Autorización y gestión de cuentas</string>
+    <string name="oh_error">Lo sentimos, pero hubo un error.</string>
+    <string name="notsupporttext1">"La información avanzada sólo está disponible para descargas a partir de la versión 3.1.3, este mensaje se mostrará para todas las descargas anteriores "</string>
+    <string name="update_style">Estilo de pantalla de actualizaciones</string>
+    <string name="auth">Autorización</string>
+    <string name="update_avaible">Nueva actualización disponible</string>
+    <string name="er_code">Código de error</string>
+    <string name="background_work">Descarga en segundo plano en curso</string>
+    <string name="background_work1">Haga clic para ir a la aplicación</string>
+    <string name="ff_error">Error de FFMPEG</string>
+    <string name="ffmpeg_split">Fusión de FFMPEG</string>
+    <string name="ffToMP3">FFMPEG Convertir a MP3</string>
+    <string name="ff_wait">Esperando FFMPEG</string>
+    <string name="dl_complete">Descarga completa</string>
+    <string name="android_auto_update_download_progress">Descargar:%1$d%%</string>
+    <string name="license">Licencias</string>
+    <string name="status">Estado</string>
+    <string name="update_chanel_info">Información sobre nuevas actualizaciones</string>
+    <string name="detail">Detallado</string>
+    <string name="drawer_appver">Versión: %1$s</string>
+    <string name="free_mem">Libre: %1$s</string>
+    <string name="getData">Recibir datos</string>
+    <string name="author">Desarrollador</string>
+    <string name="launch_ff">Ejecutar FFMpeg</string>
+    <string name="dl_not_name">Descargar</string>
+    <string name="dl_not_info">Descargar información</string>
+    <string name="int_mem">Memoria interna</string>
+    <string name="about_upd">Información detallada</string>
+    <string name="retry_str">Reintentar</string>
+    <string name="update_download">Descargar actualizaciones</string>
+    <string name="url_detect">URL encontrada</string>
+    <string name="feedback_text">Hola :) si tiene un problema o tiene comentarios, envíeme un correo electrónico.</string>
+    <string name="intro5">¡Es muy sencillo! \n \"Haga clic en Compartir\" y seleccione PowerTube</string>
+    <string name="intro3">Una gran lista de sitios compatibles, una gran selección de formatos</string>
+    <string name="intro2">Muchas funciones</string>
+
+
+    <string-array name="parallel_cn_name">
+        <item>Selección automática</item>
+        <item>Descarga secuencial</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="auto_load_mpe">
+        <item>Permitir descarga automática desde sitios con formato preseleccionado</item>
+        <item>Permitir a todos los sitios iniciar la descarga automáticamente</item>
+        <item>Permitir descargas automáticas desde sitios donde no puede seleccionar un formato o solo uno está disponible</item>
+    </string-array>
+    <string-array name="parser_auto_id_mode_list">
+        <item>Estándar</item>
+        <item>3D</item>
+        <item>APPLE</item>
+        <item>Vídeo MP4 (RECOMENDADO)</item>
+        <item>Audio MP4</item>
+        <item>Vídeo WEBM (RECOMENDADO)</item>
+        <item>Audio WEBM</item>
+        <item>Audio OPUS</item>
+    </string-array>
+    <string-array name="parser_auto_mode">
+        <item>Automático (RECOMENDADO)</item>
+        <item>Seleccionado por youtube-dl</item>
+        <item>Seleccionado por el usuario</item>
+    </string-array>
+    <string-array name="day_night_mode">
+        <item>Auto</item>
+        <item>Día</item>
+        <item>Noche</item>
+    </string-array>
+    <string-array name="update_style1">
+        <item>Diálogo</item>
+        <item>SnackBars</item>
+    </string-array>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="check">Comprobar</string>
+    <string name="status_str">Estado</string>
+    <string name="about_appver">Versión %1$s</string>
+    <string name="auth_yes">Sesión iniciada</string>
+    <string name="auth_no">No ha iniciado sesión</string>
+	<string name="no_update">Sin actualización</string>
+	
+</resources>

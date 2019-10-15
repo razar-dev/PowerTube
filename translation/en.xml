@@ -190,5 +190,12 @@
     <string name="auth_yes">Signed in</string>
     <string name="auth_no">You are not logged in</string>
 	<string name="no_update">No update</string>
+    <string name="kz_translate">Kazakh</string>
+    <string name="sp_translate">Spanish</string>
+    <string name="cl_to_change">Click to change</string>
+    <string name="translate">Translation</string>
+    <string name="p4pda">4PDA profile</string>
+    <string name="r_bу">Belarus</string>
+    <string name="w_error">Errors</string>
 	
 </resources>

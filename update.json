@@ -1,15 +1,12 @@
 {
-  "latestVersion": "4.0.8",
-  "latestVersionCode": 73,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=89999652",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.0.8.apk",
+  "latestVersion": "4.0.9",
+  "latestVersionCode": 74,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90026460",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.0.9.apk",
   "releaseNotes": [
-    "- Перевод на Испанский",
-	"- Новый список",
-	"- Новый список форматов",
 	"- Оптимизация",
-	"- Уменьшен размер",
-	"- Время запуска приложения уменьшено в 2 раза"
+	"- Небольшие исправления",
+	"- Улучшена фоновая работа"
     
   ]
 }

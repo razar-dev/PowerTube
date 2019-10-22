@@ -1,12 +1,13 @@
 {
-  "latestVersion": "4.0.9",
-  "latestVersionCode": 74,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90026460",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.0.9.apk",
+  "latestVersion": "4.0.10",
+  "latestVersionCode": 75,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90055241",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.0.10.apk",
   "releaseNotes": [
-	"- Оптимизация",
-	"- Небольшие исправления",
-	"- Улучшена фоновая работа"
+	"- Исправлена ошибка с отображением текста",
+	"- Оптимизация работы списка при большом количестве загрузок",
+	"- Исправлена загрузка плейлистов",
+	"- Исправлена ошибка приводящая к переполнению стека"
     
   ]
 }

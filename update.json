@@ -1,13 +1,12 @@
 {
-  "latestVersion": "4.1.1",
+  "latestVersion": "4.2",
   "latestVersionCode": 77,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90330196",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.1.1.apk",
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90623981",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.2.apk",
   "releaseNotes": [
-	"- Небольшие изменения списка",
-	"- Исправлены ошибки",
-	"- Небольшие изменения интерфейса",
-	"- Скачивание MP3 с YouTube без конвертации"
+	"- Улучшена работа FFPMEG",
+	"- Новый интерфейс загрузки плейлистов",
+	"- Исправлены ошибки"
     
   ]
 }

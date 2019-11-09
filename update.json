@@ -1,12 +1,13 @@
 {
-  "latestVersion": "4.2",
-  "latestVersionCode": 77,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90623981",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.2.apk",
+  "latestVersion": "4.2.1",
+  "latestVersionCode": 80,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90634776",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.2.1.apk",
   "releaseNotes": [
-	"- Улучшена работа FFPMEG",
-	"- Новый интерфейс загрузки плейлистов",
-	"- Исправлены ошибки"
+	"- Исправлено отображение скачанных файлов в галерее",
+	"- Исправлена работа приложения на Android 10",
+	"- Исправлены ошибки",
+	"- Оптимизирована работа"
     
   ]
 }

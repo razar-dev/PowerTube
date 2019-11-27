@@ -1,13 +1,14 @@
 {
-  "latestVersion": "4.2.1",
-  "latestVersionCode": 80,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=90634776",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.2.1.apk",
+  "latestVersion": "4.2.5",
+  "latestVersionCode": 84,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=91313366",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.2.5.apk",
   "releaseNotes": [
-	"- Исправлено отображение скачанных файлов в галерее",
-	"- Исправлена работа приложения на Android 10",
+	"- Улучшена работа FFmpeg",
+	"- Возможность повторить объединение звука и видео в случае ошибки",
 	"- Исправлены ошибки",
-	"- Оптимизирована работа"
+	"- Уменьшен размер",
+	"- Множество других изменений"
     
   ]
 }

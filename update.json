@@ -1,12 +1,11 @@
 {
-  "latestVersion": "4.3.4",
-  "latestVersionCode": 89,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=93196163",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.3.4.apk",
+  "latestVersion": "4.3.5",
+  "latestVersionCode": 90,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=93235635",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.3.5.apk",
   "releaseNotes": [
-	"- Улучшена работа с YouTube",
-	"- Оптимизация",
-	"- Минимальная версия Android 4.4"
+	"- Улучшена загрузка видео с YouTube",
+	"- Исправлена загрузка защищённых видео с YouTube"
     
   ]
 }

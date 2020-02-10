@@ -1,12 +1,11 @@
 {
-  "latestVersion": "4.3.6",
-  "latestVersionCode": 91,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=93449781",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.3.6.apk",
+  "latestVersion": "4.3.7",
+  "latestVersionCode": 92,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=93771312",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.3.7.apk",
   "releaseNotes": [
-	"- Исправлено отображение информации об ошибке",
-	"- Исправлен вылет приложения при попытке скачать видео с VK",
-	"- Исправлена работа функция скрытия плеера",
+	"- Исправлена загрузка некоторых видео",
+	"- Улучшена работа ffmpeg",
 	"- Другие изменения и оптимизации"
     
   ]

@@ -1,11 +1,12 @@
 {
-  "latestVersion": "4.3.7",
-  "latestVersionCode": 92,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=93771312",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.3.7.apk",
+  "latestVersion": "4.3.8",
+  "latestVersionCode": 93,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=93988194",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.3.8.apk",
   "releaseNotes": [
-	"- Исправлена загрузка некоторых видео",
-	"- Улучшена работа ffmpeg",
+	"- Множественный выбор формата для плейлистов",
+	"- Поддержка wasd tv",
+	"- Исправлен перевод",
 	"- Другие изменения и оптимизации"
     
   ]

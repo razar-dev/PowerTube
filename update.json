@@ -1,13 +1,12 @@
 {
-  "latestVersion": "4.4.6",
-  "latestVersionCode": 101,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=95319786",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.4.6.apk",
+  "latestVersion": "4.4.7",
+  "latestVersionCode": 102,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=95542237",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.4.7.apk",
   "releaseNotes": [
 	"- Улучшена стабильность работы",
-	"- Исправлена загрузка с Я.Музыка",
-	"- Загрузка плейлистов с Я.Музыка",
-	"- Перевод на Сербский язык"
+	"- Улучшена загрузка c YouTube",
+	"- Формат MPEG-DASH по умолчанью отключен"
     
   ]
 }

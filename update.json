@@ -1,12 +1,11 @@
 {
-  "latestVersion": "4.5.5",
-  "latestVersionCode": 111,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=97843215",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.5.5.apk",
+  "latestVersion": "4.7.4",
+  "latestVersionCode": 129,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=100321880",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.7.4.apk",
   "releaseNotes": [
-	"- Доработан новый механизм объединения видео и аудио",
-	"- Оптимизирован работа парсера",
-	"- Другие небольшие изменения и исправления"
+	"- Optimization",
+	"- Fixed bugs"
     
   ]
 }

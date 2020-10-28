@@ -1,10 +1,10 @@
 {
-  "latestVersion": "4.7.4",
-  "latestVersionCode": 129,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=100321880",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.7.4.apk",
+  "latestVersion": "4.7.6",
+  "latestVersionCode": 131,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=101134552",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.7.6.apk",
   "releaseNotes": [
-	"- Optimization",
+	"- Fix YouTube download",
 	"- Fixed bugs"
     
   ]

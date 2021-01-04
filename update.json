@@ -1,11 +1,10 @@
 {
-  "latestVersion": "4.8.7",
-  "latestVersionCode": 143,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=102928124",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.8.7.apk",
+  "latestVersion": "4.8.8",
+  "latestVersionCode": 144,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=103073391",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.8.8.apk",
   "releaseNotes": [
-	"- Fix YouTube download",
-	"- Added new features",
+	"- Fix YandexMusic download",
 	"- Fixed bugs"
     
   ]

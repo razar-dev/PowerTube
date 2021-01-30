@@ -1,24 +1,22 @@
 # PowerTube
-PowerTube - Клиент youtube-dl для Android
+PowerTube - Youtube-dl client for Android
 
-<img src="https://raw.githubusercontent.com/razar-dev/PowerTube/master/images/githab.png"/>
-
-
-# Список основных функций 
-
-+	Скачивание видео с YouTube в любом формате 360p-4к 60FPS
-+	Возможность скачивать музыку с YouTube
-+	Скачивание альбомов и треков с Яндекс Музыка
-+	Скачивание плейлистов YouTube
-+	Скачивание видео почти с любого сайта (youtube-dl поддерживает ~1000 сайтов!)
-+	Скачивание HLS плейлистов
-+	Скачивание MP3 с YouTube (включается в настрйках)
-+	Многопоточная загрузка
-+	Загрузка одновременно несколько загрузок
-+	Возможность выбора папки для скачивания
-+	Поддержка как старых версий Android 4.1 так и новых 8.0+
+<img src="https://raw.githubusercontent.com/razar-dev/PowerTube/master/images/githab-new.png"/>
 
 
-<img src="http://s.4pda.to/j58OteUtvoqd8nALc75z2az25Z3kohOcXLWZOfv38eSjmRtXz0t4OcH.png"/>
+# List of main functions
 
-[Скачать для Android](http://4pda.ru/forum/index.php?showtopic=896845)
++	Download videos from YouTube in any format 360p-4k 60FPS
++	Ability to download music from YouTube
++	Download albums and tracks from Yandex Music
++	Download YouTube playlists
++	Download videos from almost any site (youtube-dl supports ~1000 sites!)
++	Download HLS playlists
++	Multithreaded loading
++	Download multiple downloads at the same time
++	Ability to select a folder to download
++	Support for both old versions of Android 5.0 and new 11
+
+[Download from 4pda](http://4pda.ru/forum/index.php?showtopic=896845)
+[Download from XDA](https://forum.xda-developers.com/t/app-5-1-powertube-fast-video-downloader-based-on-youtube-dl.4079049/)
+[Download from UpToDown](https://powertube.en.uptodown.com/android)

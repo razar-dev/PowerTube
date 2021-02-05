@@ -17,6 +17,6 @@ PowerTube - Youtube-dl client for Android
 +	Ability to select a folder to download
 +	Support for both old versions of Android 5.0 and new 11
 
-[Download from 4pda](http://4pda.ru/forum/index.php?showtopic=896845)
-[Download from XDA](https://forum.xda-developers.com/t/app-5-1-powertube-fast-video-downloader-based-on-youtube-dl.4079049/)
-[Download from UpToDown](https://powertube.en.uptodown.com/android)
+Download from [4PDA](http://4pda.ru/forum/index.php?showtopic=896845) 
+[XDA](https://forum.xda-developers.com/t/app-5-1-powertube-fast-video-downloader-based-on-youtube-dl.4079049/) 
+[UpToDown](https://powertube.en.uptodown.com/android)

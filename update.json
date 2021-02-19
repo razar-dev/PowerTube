@@ -1,10 +1,10 @@
 {
-  "latestVersion": "4.9.1",
-  "latestVersionCode": 148,
-  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=104035923",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.9.1.apk",
+  "latestVersion": "4.9.3",
+  "latestVersionCode": 150,
+  "url": "https://4pda.ru/forum/index.php?showtopic=896845&view=findpost&p=104439405",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.9.3.apk",
   "releaseNotes": [
-	"- Fix vk download",
+	"- Fix YouTube download",
 	"- Optimization",
 	"- Fixed bugs"
     

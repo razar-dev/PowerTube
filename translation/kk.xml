@@ -1,89 +1,234 @@
 <resources>
     <string name="action_settings">Баптаулар</string>
-    <string name="format">Формат</string>
-    <string name="urll">Жіктеу сілтемесі</string>
-    <string name="select_f">Форматты таңдаңыз</string>
+    <string name="format">Пішімі</string>
+    <string name="format_summary">Қалаған пішімді таңдау</string>
+    <string name="select_f">Выберите формат</string>
 
-    <string name="download_eta_sec">Шамамен %1$ds қалды</string>
-    <string name="download_eta_min">Шамамен %1$dm %2$ds қалды</string>
-    <string name="download_eta_hrs">Шамамен %1$dh %2$dm %3$ds қалды</string>
+    <string name="fetch_notification_download_eta_hrs">%1$dh %2$dm %3$ds қалды</string>
+    <string name="fetch_notification_download_eta_min">%1$dm %2$ds қалды</string>
+    <string name="fetch_notification_download_eta_sec">%1$ds қалды</string>
     <string name="download_speed_bytes">%1$d Б/с</string>
     <string name="download_speed_kb">%1$s Кб/с</string>
     <string name="download_speed_mb">%1$s Мб/с</string>
-    <string name="pause">Үзіліс</string>
+    <string name="pause">Кідірту</string>
     <string name="delete">Жою</string>
     <string name="cancel">Болдырмау</string>
-    <string name="permission_not_enabled">Программаға жадқа рұқсат жоқ, видео сақтау мүмкін емес</string>
-    <string name="downloading">Жіктеу…</string>
-    <string name="queued">Сауал</string>
+    <string name="permission_not_enabled">Бағдарламаға жадқа кіру рұқсаты берілген жоқ,сондықтан бейнені сақтау мүмкін емес</string>
+    <string name="downloading">Загрузка</string>
+    <string name="queued">Запрос</string>
     <string name="load_file">Жүктеу</string>
     <string name="open_file">Ашу</string>
-    <string name="file_name">Файлдың есімі</string>
-    <string name="file_size">Файлдың өлшемі</string>
-    <string name="none">Қол жетімсіз</string>
+    <string name="add_url">Қосу</string>
+    <string name="file_name">Файл есімі</string>
+    <string name="file_size">Файл өлшемі</string>
+    <string name="none">Қол жетімді емес</string>
     <string name="select">Таңдау</string>
-    <string name="save_dir">Сақтау үшін </string>
-    <string name="delete_fl">Файл және жою</string>
+    <string name="save_dir">Сақтауға арналған бума</string>
+    <string name="save_dir_summary">Видео сақтауға арналған бума</string>
+    <string name="delete_fl">Файлмен жою</string>
     <string name="abaoutsc">Программа туралы</string>
     <string name="clear_all_list">Бүкіл тізімді тазарту</string>
+    <string name="clear_all_summary">Жүктелген файлдар ЖОЙЫЛМАЙДЫ</string>
 
+    <string name="theme">Түр-пішіні</string>
+    <string name="theme_dl">Түрді таңдау</string>
 
-    <string name="theme">Мұқабалар</string>
+    <string name="auto">Авто</string>
+    <string name="day">Күн</string>
+    <string name="night">Түн</string>
 
     <string name="file_path">Бума</string>
     <string name="loaded">Жүктелген</string>
+    
+    <string name="source_text">Бастапқы көз</string>
+    <string name="add_date">Қосылған күні</string>
+    <string name="video_res">Видео ажыратымдылығы</string>
 
-    <string name="source_text">Көзі</string>
-    <string name="add_date">Қосылу күні</string>
-    <string name="loader_name">Жүктегіш</string>
-    <string name="video_res">Видео өлшемі</string>
-
-    <string name="notsupporttext">Бұл ақпарат ескі жүктеу үшін қол жетімді емес</string>
-    <string name="notsupporttext1">Кеңейтілген ақпарат тек 3.1.3 нұсқасынан бастап жүктеу үшін қол жетімді, барлық алдыңғы жүктеу үшін бұл хабарлама көрсетіледі</string>
-    <string name="video_player">Видео плеер</string>
+    <string name="video_player">Видео ойнатқыш</string>
     <string name="video_player_on">Қосу</string>
-    <string name="video_player_autoplay">Автоойнату</string>
-    <string name="listview_imgvisible">Жүктеулер тізімінде суретті көрсету</string>
+    <string name="video_player_autoplay">Авто ойнау</string>
+    <string name="video_player_summary">Видео плеерді жүктеудің ақпаратымен бірге көрсету</string>
+    <string name="video_player_summary1">Автоматты түрде видеоны ойнату</string>
     <string name="error">Қате</string>
-    <string name="youtube_auto_mp3">YouTube-тан жүктелгендерді,MP3 аудио файылдарына түрлендіру</string>
     <string name="list">Тізім</string>
 
-    <string name="main_edit_hint">Сілтемені қойыңыз  </string>
-
-    <string name="main_settings">Маңыздылары</string>
+    <string name="main_settings">Негізгі (қайта ашылу талап етіледі)</string>
     <string name="del_list">Тізімнен жою керек пе?</string>
 
-    <string-array name="parser_auto_mode">
-        <item>Аутоматты түрде(ҰСЫНАДЫ)</item>
-        <item>youtube-dl таңдаған</item>
-        <item>Пайдаланушы таңдаған</item>
+    <string name="auto_mode">Автоматты түрде</string>
+    <string name="ytl_mode">Youtube-dl таңдаған</string>
+    <string name="user_mode">Қолданушы таңдаған</string>
 
-    </string-array>
-    <string name="parser_auto_mode_name">Форматты таңдау режимі</string>
-    <string name="parser_auto_id_format">Форматтың ID-і </string>
-    <string name="parser_auto_id_mode">Өзіңіз қалаған режим</string>
-    <string-array name="parser_auto_id_mode_list">
-        <item>Стандарт</item>
-        <item>3D</item>
-        <item>APPLE</item>
-        <item>MP4 Видео (ҰСЫНАДЫ)</item>
-        <item>MP4 Аудио</item>
-        <item>WEBM Видео (ҰСЫНАДЫ)</item>
-        <item>WEBM Аудио</item>
-        <item>OPUS Аудио</item>
+    <string name="parser_auto_mode_name">Автоматты түрде қалаған пішімі</string>
+    <string name="parser_auto_id_format">Пішіннің ID-і</string>
+    <string name="parser_auto_id_mode">Өзіңіз таңдалған пішім</string>
 
-    </string-array>
+    <string name="standard_mode">Стандарт</string>
+    <string name="mp4_v_mode">MP4 Видео (Ең таңдаулы)</string>
+    <string name="mp4_a_mode">MP4 Аудио</string>
+    <string name="webm_v_mode">WEBM Видео (Ең таңдаулы)</string>
+    <string name="webm_a_mode">WEBM Аудио</string>
+    <string name="opus_a_mode">OPUS Аудио</string>
 
-    <string name="server">Сервер</string>
+    <string name="server">Сервер (Frankfurt)</string>
 
-    <string name="hello">Сәлем</string>
-    <string name="intro1">PowerTube программасын орнатқанын үшін алғысымызды білдіреміз</string>
-    <string name="intro2">Мүмкіндіктер</string>
-    <string name="intro3">Белгілі сайттардың үлкен тізімі, көп форматтар түрлері</string>
-    <string name="intro4">Қарапайымдылық</string>
-    <string name="intro5">Барлығы өте жеңіл! \n \"Бөлісу\" батырмасын басып, PowerTube-ты таңдаңыз</string>
-    <string name="account">Аккаунттар</string>
+    <string name="sort">Сұрыптау</string>
+
+
+    <string name="pleas_wait">Күте тұрыңыз</string>
+
+    <string name="load_mn">Жүктеу менеджері</string>
+    <string name="load_mn_summary">Жүктеу менеджердің баптаулары</string>
+    <string name="paralle_count">Ағын саны</string>
+    <string name="paralle_limit">Бір мезгілде жүктелетін жүктеулер саны</string>
+
+    <string name="parallel_cn_name1">Авто таңдау</string>
+    <string name="parallel_cn_name2">Біреудін кейін екіншісін жүктеу</string>
+
+
+    <!--This section is for basic attributes -->
+    <string name="ui_preferences">Сыртқы түрі</string>
+    <string name="summary_ui_preference">Сыртқы түр баптаулары</string>
+
+
+    <string name="drawer_data_up">Күні (артуы бойынша)</string>
+    <string name="drawer_data_down">Күні (кемуі бойынша)</string>
+    <string name="drawer_name_up">Аты (артуы бойынша)</string>
+    <string name="drawer_name_down">Аты (кемуі бойынша)</string>
+
+
+    <string name="update">Жаңарту</string>
+    <string name="check_update">Жаңартуларды тексеру</string>
+    <string name="check_update_summary">Жаңарту тексеру үшін мынаған басыңыз</string>
+    <string name="update_summary">Жаңарту баптаулары</string>
+
+    <string name="empty_list">Тізім таза</string>
+
+    <string name="update_avaible">Жаға жаңарту бар</string>
+
+    <string name="update_now">Жаңарту</string>
+
+    <string name="update_switch_summary">Қолданбаны қосқан кезде жаңартуларды тексеру</string>
+    <string name="update_style">Жаңартуларды көрсету мәнері</string>
+
+    <string name="other">Басқалары</string>
+
+    <string name="account">Аккаунтар</string>
+    <string name="account_summary">Аккаунтарға кіру мен басқару</string>
+
     <string name="yes">Иә</string>
+    <string name="no">Жоқ</string>
+
+    <string name="auth">Аккаунтарға кіру</string>
+    <string name="auth_summary">Аккаунтқа кіру үшін басыңыз</string>
+    <string name="token">Ақпарат</string>
+
+    <string name="bug_report">Қате туралы хабарлау</string>
+
+    <string name="feedback_text">Сәлем :) Егер сенде Если у вас возникла проблема или есть пожелания напишите мне.</string>
+    <string name="feedback_you_text">Мархабат, пікіріңізді осында жазыңыз</string>
+    <string name="feedback_info">Құрылғы туралы ақпаратты қосу</string>
+    <string name="appupdater_btn_update">Жаңарту</string>
+    <string name="appupdater_update_available">Жаңа нұсқасы бар</string>
+    <string name="free_mem">Бос: %1$s</string>
+    <string name="drawer_appver">Нұсқасы: %1$s</string>
+    <string name="android_auto_update_download_progress">Жүктеу:%1$d%%</string>
+    <string name="update_chanel_info">Жаңа жаңарту туралы ақпарат</string>
+
+    <string name="dl_complete">Жүктеу аяқталды</string>
+
+    <string name="background_work">Фондық жүктеу үстінде</string>
+    <string name="background_work1">Бағдарламаға ауысу үшін мында басыңыз</string>
+    <string name="detail">Толығырақ</string>
+    <string name="status">Мәртебесі</string>
+    <string name="author">Жасаушы</string>
+    <string name="dl_not_name">Жүктеулер</string>
+    <string name="dl_not_info">Жүктеулер туралы ақпарат</string>
+    <string name="int_mem">Ішкі жад</string>
+    <string name="about_upd">Толығырақ ақпарат</string>
+    <string name="update_download">Жаңартуларды жүктеу</string>
+    <string name="status_str">Қалпы</string>
+    <string name="log_in">Кіру</string>
+    <string name="log_out">Шығу</string>
+    <string name="check">ТЕКСЕРУ</string>
+    <string name="auth_yes">Кіру істелінді</string>
+    <string name="auth_no">Кіру істелінбеді</string>
+    <string name="kz_translate">Қазақ тілі</string>
+    <string name="sp_translate">Испан тілі</string>
+    <string name="translate">Аударушы</string>
+    <string name="p4pda">4PDA профилі</string>
+    <string name="r_bу">Беларусь</string>
+    <string name="audio_s">Аудио</string>
+    <string name="video_s">Видео</string>
+    <string name="url_detect">URL табылды</string>
+    <string name="in_load">Кезекте</string>
+    <string name="add_download">Жүутеуді қосу</string>
+    <string name="clipboard_str">Буфер</string>
+    <string name="clipboard_title">URL іздеу</string>
+    <string name="clipboard_text">Кіру кезде буферде URL- ді іздеу</string>
+    <string name="clipboard_set">Буфер монинторингін белгілеңіз</string>
+    <string name="sel_item">Таңдаңыз</string>
+    <string name="sel_item_count">Таңдалды: </string>
+    <string name="format_detail_info">Ақпарат</string>
+    <string name="vcodec_str">Видеокодек</string>
+    <string name="acodec_str">Аудиокодек</string>
+    <string name="stop_app">Бағдарламаны тоқтатайын ба?</string>
+    <string name="stop_app_summary">Барлық жүктеулер тоқтатылады бағдарлама жадтан уақытша өшіріледі</string>
+    <string name="info_str">Ақпарат</string>
+    <string name="opt_str">Оңтайландыру</string>
+    <string name="action_str">Әрекет</string>
+    <string name="cacheSize_str">Сурет кэшінің өлшемі</string>
+    <string name="clear_str">Тазалау</string>
+    <string name="qual_str">Сурет сапасы</string>
+
+    <string name="maximum">Ең жоғары</string>
+    <string name="high">Жоғары</string>
+    <string name="medium">Орташа</string>
+    <string name="low">Төмен</string>
+
+    <string name="cache_str">Кэш</string>
+    <string name="cache_str_summary">Сурет кэшінің баптаулары</string>
+    <string name="other_settings">Басқа баптаулар</string>
+    <string name="other_click">Қосымша ақпарат алу үшін мында басыңыз</string>
+    <string name="url_un_detect">Сілтеме табылмады</string>
+    <string name="play_video">Ойнату</string>
+    <string name="tapdownload">Жүктеу үшін мында басыңыз</string>
+    <string name="copy_url">URL-ді көшіру</string>
+
+    <string name="beta_upd_name">Сынақ жүктеулері</string>
+    <string name="beta_upd_summary">Сынақ жаңартулар туралы ақпарат көрсету</string>
+
+    <string name="ffmpeg_tasklist">Міндеттер тізімі</string>
+    <string name="ffmpeg_tasklist_summary">ffmpeg істеген қылықтарын көрсету</string>
+    <string name="active_load_desc">Здесь будут отображается активные загрузки</string>
+    <string name="compleate_download_desc">Бұл жүктелген файлдар көрсетіледі</string>
+    <string name="size_gb">Гб</string>
+    <string name="size_mb">Мб</string>
+    <string name="size_kb">Кб</string>
+    <string name="size_b">Байт</string>
+    <string name="b_fl_ver">Жарнаманы көрсетпеу</string>
+    <string name="file_exits">Файл с таким именем уже есть в папке</string>
+    <string name="sr_translate">Cерб</string>
+    <string name="hide_dash">MPEG-DASH пішімін көрсетпеу</string>
+    <string name="hide_dash_summary">MPEG-DASH пішімдегі видеолар жүктеле алмайды</string>
 
 
+    <string name="app_url">https://4pda.ru/forum/index.php?showtopic=896845</string>
+    <string name="chg_summary">Бұл қосымша өзгерілген, пайдалану қауіпсіз емес. Осы бағдарламаны жойып, сенімді көзден жүктеп қойыңыз.</string>
+    <string name="chg_detect">Өзгерістер табылды</string>
+
+    <string name="free_space_title">Бос орын жетпей жатыр</string>
+    <string name="free_space_lost">Талап етіледі: %1$s\nБос орын: %2$s\nОрынды босатыңыз немесе басқа жүктеу орнын көрсетіңіз.\n\nБәрібір жүктеуді бастайын ба?</string>
+    <string name="enableBrowser_summary">Ішкі браузерді қосу</string>
+    <string name="enableBrowser_title">Браузерді қосу</string>
+    <string name="enableAV1F_summary">AV1 Видео пішімді қосу</string>
+    <string name="enableAV1F_title">AV1 - ді қосу</string>
+    <string name="preference_title_search_engine_id">Іздеу жүесі</string>
+    <string name="preference_title_clear_history">Тарихты тазалау</string>
+    <string name="preference_title_clear_cookies">Cookie файлдарын тазалау</string>
+    <string name="preference_title_show_soft_keyboard">Пернетақтаны көрсету</string>
+    <string name="preference_summary_show_soft_keyboard">Показывать клавиатуру при открытии новой вкладки.</string>
+
+    <string name="browser_setting_name">Браузер</string>
+    <string name="browser_setting_summary">Ішкі браузердің баптаулары</string>
 </resources>

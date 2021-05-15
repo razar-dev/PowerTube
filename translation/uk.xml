@@ -1,0 +1,488 @@
+<resources>
+    <string name="action_settings">Налаштування</string>
+    <string name="format">Формат</string>
+    <string name="format_summary">Вибір переважного формату</string>
+    <string name="select_f">Формат файлу</string>
+
+    <string name="fetch_notification_download_eta_hrs">Залишилося %1$dh %2$dm %3$ds</string>
+    <string name="fetch_notification_download_eta_min">Залишилося %1$dm %2$ds</string>
+    <string name="fetch_notification_download_eta_sec">Залишилося %1$ds</string>
+    <string name="download_speed_bytes">%1$d Б/с</string>
+    <string name="download_speed_kb">%1$s Кб/с</string>
+    <string name="download_speed_mb">%1$s Мб/с</string>
+    <string name="pause">Пауза</string>
+    <string name="delete">Видалити</string>
+    <string name="cancel">Відміна</string>
+    <string name="permission_not_enabled">Програмі не надано доступ до пам\'яті. Збереження відео неможливе</string>
+    <string name="downloading">Завантаження</string>
+    <string name="queued">Запит</string>
+    <string name="load_file">Завантажити</string>
+    <string name="open_file">Відкрити</string>
+    <string name="add_url">Додати</string>
+    <string name="file_name">Ім\'я файлу</string>
+    <string name="file_size">Розмір файлу</string>
+    <string name="none">Недоступно</string>
+    <string name="select">Вибір</string>
+    <string name="save_dir">Тека для збереження</string>
+    <string name="save_dir_summary">Тека для збереження відео</string>
+    <string name="delete_fl">Видалити і файл</string>
+    <string name="abaoutsc">Про додаток</string>
+    <string name="clear_all_list">Очистити весь список</string>
+    <string name="clear_all_summary">Завантажені файли видалені НЕ будуть</string>
+
+    <string name="theme">Тема</string>
+    <string name="theme_dl">Виберіть тему</string>
+
+    <string name="auto">Авто</string>
+    <string name="day">День</string>
+    <string name="night">Ніч</string>
+
+    <string name="file_path">Тека</string>
+    <string name="loaded">Завантажено</string>
+
+    <string name="source_text">Джерело</string>
+    <string name="add_date">Дата додавання</string>
+    <string name="video_res">Роздільна здатність відео</string>
+
+    <string name="video_player">Відеопрогравач</string>
+    <string name="video_player_on">Включити</string>
+    <string name="video_player_autoplay">Автовідтворення</string>
+    <string name="video_player_summary">Відображати відеопрогравач разом з інформацією про завантаження</string>
+    <string name="video_player_summary1">Розпочати автоматичне відтворення відео</string>
+    <string name="error">Помилка</string>
+    <string name="list">Список</string>
+
+    <string name="main_settings">Основні (потрібен перезапуск)</string>
+    <string name="del_list">Видалити зі списку?</string>
+
+
+    <string name="auto_mode">Автоматично (РЕКОМЕНДОВАНО)</string>
+    <string name="ytl_mode">Вибраний youtube-dl</string>
+    <string name="user_mode">Вибраний користувачем</string>
+
+    <string name="parser_auto_mode_name">Переважний формат</string>
+    <string name="parser_auto_id_format">ID Формату</string>
+    <string name="parser_auto_id_mode">Переважний режим</string>
+
+    <string name="standard_mode">Стандарт</string>
+    <string name="mp4_v_mode">MP4 Відео (РЕКОМЕНДОВАНО)</string>
+    <string name="mp4_a_mode">MP4 Аудіо</string>
+    <string name="webm_v_mode">WEBM Відео (РЕКОМЕНДОВАНО)</string>
+    <string name="webm_a_mode">WEBM Аудіо</string>
+    <string name="opus_a_mode">OPUS Аудіо</string>
+
+    <string name="server">Сервер (Frankfurt)</string>
+
+    <string name="sort">Сортування</string>
+
+
+    <string name="pleas_wait">Будь ласка, почекайте</string>
+
+
+    <string name="load_mn">Завантаження</string>
+    <string name="load_mn_summary">Налаштування менеджера завантажень</string>
+    <string name="paralle_count">Кількість потоків</string>
+    <string name="paralle_limit">Кількість одночасних завантажень</string>
+
+    <string name="parallel_cn_name1">Автовибір</string>
+    <string name="parallel_cn_name2">Послідовне завантаження</string>
+
+
+    <!--This section is for basic attributes -->
+    <string name="ui_preferences">Зовнішній вигляд</string>
+    <string name="summary_ui_preference">Налаштування зовнішнього вигляду</string>
+
+
+    <string name="drawer_data_up">Дата (по зростанню)</string>
+    <string name="drawer_data_down">Дата (по зменшенню)</string>
+    <string name="drawer_name_up">Ім\'я (по зростанню)</string>
+    <string name="drawer_name_down">Ім\'я (по зменшенню)</string>
+
+
+    <string name="update">Оновлення</string>
+    <string name="check_update_1">Перевірити наявність оновлень</string>
+    <string name="check_update">Переверити оновлення</string>
+    <string name="check_update_summary">Натисніть для перевірки оновлень</string>
+    <string name="update_summary">Налаштування оновлень</string>
+
+    <string name="empty_list">Список пустий</string>
+
+    <string name="update_avaible">Доступне оновлення</string>
+
+    <string name="update_now">Оновити</string>
+
+    <string name="update_switch_summary">Перевіряти наявність оновлень додатку при запуску</string>
+    <string name="update_style">Стиль відображення оновлень</string>
+
+    <string name="other">Інше</string>
+
+    <string name="account">Облікові записи</string>
+    <string name="account_summary">Авторизація і керування обліковими записами</string>
+
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+
+    <string name="auth">Авторизація</string>
+    <string name="auth_summary">Натисніть, щоб авторизуватися</string>
+    <string name="token">Інформація</string>
+
+    <string name="bug_report">Повідомити про помилку</string>
+
+    <string name="feedback_text">Добридень! Якщо у Вас виникли проблеми чи побажання, звертайтеся до мене.</string>
+    <string name="feedback_you_text">Будь ласка, напишить тут Ваш відгук</string>
+    <string name="feedback_info">Додати інформацію про пристрій</string>
+    <string name="appupdater_btn_update">Оновити</string>
+    <string name="appupdater_update_available">Доступна нова версія PowerTube!</string>
+    <string name="free_mem">Вільно: %1$s</string>
+    <string name="drawer_appver">Версія: %1$s</string>
+    <string name="android_auto_update_download_progress">Звантаження:%1$d%%</string>
+    <string name="update_chanel_info">Інформація про оновлення</string>
+
+    <string name="dl_complete">Завантаження завершено</string>
+    <string name="background_work">Виконується фонове завантаження</string>
+    <string name="background_work1">Натисніть, щоб перейти в додаток</string>
+    <string name="detail">Детально</string>
+    <string name="status">Статус</string>
+    <string name="author">Разробник</string>
+    <string name="dl_not_name">Завантаження</string>
+    <string name="dl_not_info">Інформація про завантаження</string>
+    <string name="dl_not_name2">Фонова служба</string>
+    <string name="dl_not_info2">Додаткова інформація про фонові задачі</string>
+    <string name="int_mem">Внутрішня пам\'ять</string>
+    <string name="about_upd">Детальна інформація</string>
+    <string name="update_download">Завантаження оновлень</string>
+    <string name="status_str">Стан:</string>
+    <string name="log_in">Війти</string>
+    <string name="log_out">Вийти</string>
+    <string name="check">ПЕРЕВІРКА</string>
+    <string name="auth_yes">Вхід виконано</string>
+    <string name="auth_no">Вхід не виконано</string>
+    <string name="kz_translate">Казахська</string>
+    <string name="sp_translate">Іспанска</string>
+    <string name="translate">Переклад</string>
+    <string name="p4pda">Профіль 4PDA</string>
+    <string name="r_bу">Бєларусь</string>
+    <string name="audio_s">Аудіо</string>
+    <string name="video_s">Відео</string>
+    <string name="url_detect">Виявлено URL</string>
+    <string name="in_load">В черзі</string>
+    <string name="add_download">Додати завантаження</string>
+    <string name="clipboard_str">Буфер обміну</string>
+    <string name="clipboard_title">Пошук URL</string>
+    <string name="clipboard_text">Перевіряти наявність посилань в буфері обміну при запуску</string>
+    <string name="clipboard_set">Налаштування моніторингу буферу обміну</string>
+    <string name="sel_item">Оберіть</string>
+    <string name="sel_item_count">Обрано: </string>
+    <string name="format_detail_info">Інформація</string>
+    <string name="vcodec_str">Відеокодек</string>
+    <string name="acodec_str">Аудіокодек</string>
+    <string name="stop_app">Зупинити додаток?</string>
+    <string name="stop_app_summary">Всі завантаження буде зупинено. Додаток буде примусово вивантажено з пам\'яті</string>
+    <string name="info_str">Інформація</string>
+    <string name="opt_str">Оптимізувати</string>
+    <string name="action_str">Дії</string>
+    <string name="cacheSize_str">Розмір кешу зображень</string>
+    <string name="clear_str">Очистити</string>
+    <string name="qual_str">Якість зображень</string>
+
+    <string name="maximum">Максимальна</string>
+    <string name="high">Висока</string>
+    <string name="medium">Середня</string>
+    <string name="low">Низька</string>
+
+    <string name="cache_str">Кеш</string>
+    <string name="cache_str_summary">Налаштування кешу зображень</string>
+    <string name="other_settings">Інші налаштування</string>
+    <string name="other_click">Натисніть, щоб отримати додаткову інформацію</string>
+    <string name="url_un_detect">Посилання не знайдено</string>
+    <string name="play_video">Відтворити</string>
+    <string name="tapdownload">Натисніть для завантаження</string>
+    <string name="copy_url">Копіювати URL</string>
+
+    <string name="beta_upd_name">Тестові оновлення</string>
+    <string name="beta_upd_summary">Перевіряти наявність нових тестових версій додатку</string>
+
+    <string name="ffmpeg_tasklist">Список задач</string>
+    <string name="ffmpeg_tasklist_summary">Інформація про виконуваних ffmpeg діях</string>
+    <string name="active_load_desc">Тут будуть відображатися активні завантаження</string>
+    <string name="compleate_download_desc">Тут будуть відображатися завершені завантаження</string>
+    <string name="size_gb">Гб</string>
+    <string name="size_mb">Мб</string>
+    <string name="size_kb">Кб</string>
+    <string name="size_b">Байт</string>
+    <string name="b_fl_ver">Вимкнути рекламу</string>
+    <string name="file_exits">Файл з таким ім\'ям вже існує в даній теці</string>
+    <string name="sr_translate">Cербска</string>
+    <string name="hide_dash">Не показувати MPEG-DASH формати</string>
+    <string name="hide_dash_summary">Відео формата MPEG-DASH завантажуватися не будуть</string>
+
+
+    <string name="app_url">https://4pda.ru/forum/index.php?showtopic=896845</string>
+    <string name="chg_summary">Даний додаток пошкоджено, використовувати модифікацію небезпечно. Видаліть додаток, та завантажте новий із надійного джерела</string>
+    <string name="chg_detect">Виявлено зміни</string>
+
+    <string name="free_space_title">Недостатньо місця</string>
+    <string name="free_space_lost">Потрібно місця: %1$s\nДоступно: %2$s\nЗвільніть місце, або виберіть інше розміщення.\n\nПочати завантаження в будь якому випадку?</string>
+    <string name="enableBrowser_summary">Використовувати вбудований браузер</string>
+    <string name="enableBrowser_title">Ввімкнути браузер</string>
+    <string name="enableAV1F_summary">Показувати відео, в яких використовується кодек AV1 в списку форматів</string>
+    <string name="enableAV1F_title">Ввімкнути AV1</string>
+    <string name="preference_title_search_engine_id">Пошукова система</string>
+    <string name="preference_title_clear_history">Очистити історію</string>
+    <string name="preference_title_clear_cookies">Очистити файли Cookie</string>
+    <string name="preference_title_show_soft_keyboard">Показати клавіатуру</string>
+    <string name="preference_summary_show_soft_keyboard">Показувати клавіатуру при відкритті нової вкладки.</string>
+
+    <string name="browser_setting_name">Браузер</string>
+    <string name="browser_setting_summary">Налаштування вбудованого браузера</string>
+    <string name="appintro1M">Ласкаво просимо в PowerTube!</string>
+    <string name="appintro2M">Авторске право</string>
+    <string name="appintro2S">PowerTube призначений виключно для особистого користування. Використання PowerTube з комерційною метою, поширення матеріалов чи інші дії, що порушують авторскі права, суворо заборонені.</string>
+    <string name="appintro3M">Крок 1</string>
+    <string name="appintro4M">Крок 2</string>
+    <string name="appintro5M">Крок 2+</string>
+    <string name="appintro6M">Крок 3</string>
+    <string name="appintro7M">Крок 4</string>
+    <string name="appintro8M">Завантаження</string>
+    <string name="appintro9M">Браузер</string>
+    <string name="appintro10M">Це ще не все</string>
+    <string name="appintro10S">Це лиш невелика частка функцій. З іншими функціями Ви ознайомитеся підчас користування додатком.</string>
+    <string name="appintro9S">Браузер з технологією AMELI AI дозволяє Вам завантажувати практично будь яке відео.</string>
+    <string name="appintro8S">Окрім звичайних функцій завантаження, додаток підтримує багатопокове завантаження, MPD и HLS.</string>
+    <string name="appintro7S">Великий вибір форматів: \n144p-8K, 60FPS и HDR</string>
+    <string name="appintro6S">Виберіть назву завантажуваного файлу, його формат і теку збереження.</string>
+    <string name="appintro5S">PowerTube також підтримує завантаження плейлистів.</string>
+    <string name="appintro4S">Натисніть на кнопку \"Поділитися\" і виберіть PowerTube.</string>
+    <string name="appintro1S">Наразі Ви зможете ознайомитися з функціями та можливостями додатку.</string>
+    <string name="appintro3S">Відкрийте додаток, з якого Ви бажаєте завантажити відео.</string>
+    <string name="help">Допомога</string>
+    <string name="merge">Злиття</string>
+
+    <string name="access_problem">Додаток не має доступу до цієї теки, щоб надати доступ натисніть \"OK\" і виберіть теку.</string>
+    <string name="no_access">Доступ не надано</string>
+    <string name="save">Зберегти</string>
+    <string name="reset">Скидання</string>
+    <string name="name_sample">Зразок імені</string>
+    <string name="name_pattern">Шаблон імені файлу</string>
+    <string name="open_embed_browser">Відкрити браузер PowerTube</string>
+    <string name="dont_show_again">Більше не показувати</string>
+
+
+    <string name="site_auth_error">Для завантаження потрібна авторизація, відкрийте сайт та ввійдіть в аккаунт.</string>
+
+    <string name="exception_auth">Потрібна авторизація</string>
+    <string name="exception_not_support">Виникла помилка. Невдале завантаження.</string>
+    <string name="exception_cookie">Оновіть Cookie</string>
+
+    <string name="exit">Закрити браузер</string>
+
+    <string name="fslw">Майстер першого запуску</string>
+
+    <string name="action_new_tab">Створити вкладку</string>
+    <string name="action_share">Відправити посилання</string>
+    <string name="action_history">Історія</string>
+    <string name="action_bookmarks">Закладки</string>
+    <string name="action_add_bookmark">Додати закладку</string>
+    <string name="action_copy">Копіювати посилання</string>
+    <string name="action_forward">Вперед</string>
+
+    <string name="location">Місцезнаходження</string>
+    <string name="password">Зберігати паролі</string>
+    <string name="agent">User Agent</string>
+    <string name="home">Нова вкладка</string>
+    <string name="fullscreen">На весь екран</string>
+    <string name="java">Ввімкнути JavaScript</string>
+    <string name="download">Шлях завантаження</string>
+    <string name="settings_advanced">Додатково</string>
+    <string name="cache">Очищати кеш при виході</string>
+    <string name="reflow">Перекомпоновка</string>
+    <string name="block">Без зображень</string>
+    <string name="window">Дозволити виринаючі вікна</string>
+    <string name="cookies">Ввімкнути куки</string>
+    <string name="recommended">Рекомендуєтся</string>
+    <string name="search">Пошукова система</string>
+    <string name="search_hint">Пошук</string>
+    <string name="wideViewPort">Широкий вид</string>
+    <string name="overViewMode">Завантажувати огляд</string>
+    <string name="restore">Відновлення попередньої сесії</string>
+    <string name="fullScreenOption">Без рядка стану</string>
+    <string name="clear_cookies">Очистити куки</string>
+    <string name="clear_history">Очистити історію</string>
+    <string name="action_download">Заватажити</string>
+    <string name="action_open">відкрити</string>
+    <string name="dialog_title_share">Спосіб передавання</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_blank">Пуста сторінка</string>
+    <string name="agent_default">По замовчуванню</string>
+    <string name="agent_desktop">Стандартний</string>
+    <string name="agent_mobile">Мобільний</string>
+    <string name="agent_custom">Вибрати</string>
+    <string name="title_search_engine">Пошукова система</string>
+    <string name="action_ok">Добре</string>
+    <string name="dialog_download">Завантажити файл? (%1$s)</string>
+    <string name="action_cancel">Скасування</string>
+    <string name="title_warning">Увага</string>
+    <string name="title_user_agent">User Agent</string>
+    <string name="title_download_location">Шлях завантаження</string>
+    <string name="title_custom_homepage">Введіть адресу</string>
+    <string name="action_webpage">Відкрити адресу</string>
+    <string name="title_clear_history">Очистити історію</string>
+    <string name="title_clear_cookies">Очистити куки</string>
+    <string name="dialog_history">Історія буде видалена. Продовжити?</string>
+    <string name="dialog_cookies">Куки будуть видалені. Продовжити?</string>
+    <string name="action_yes">Так</string>
+    <string name="action_no">Ні</string>
+    <string name="title_text_size">Розмір тексту</string>
+    <string name="title_error">Помилка</string>
+    <string name="hint_title">Назва</string>
+    <string name="hint_url">Адреса</string>
+    <string name="title_edit_bookmark">Правка закладки</string>
+    <string name="action_incognito">Інкогніто-вкладка</string>
+    <string name="action_homepage">Додому</string>
+    <string name="action_back">Назад</string>
+    <string name="action_find">Знайти на сторінці</string>
+    <string name="download_pending">Завантаження\u2026</string>
+    <string name="cannot_download">Завантаження можливе лише з \"http\" або \"https\" адресів</string>
+    <string name="problem_download">Некоректний URL, завантаження неможливе</string>
+    <string name="problem_location_download">Неможливо завантажити по зазначеному шляху</string>
+    <string name="download_no_sdcard_dlg_title">Немає карти пам\'яті</string>
+    <string name="download_no_sdcard_dlg_msg">Для завантаження файлу необхідна карта пам\'яті</string>
+    <string name="download_sdcard_busy_dlg_title">Карта пам\'яті недоступна</string>
+    <string name="download_sdcard_busy_dlg_msg">Карта пам\'яті підключена до ПК. Для початку завантаження відключіть її від ПК, натиснувши на сповіщення.</string>
+    <string name="incognito_cookies">Включити куки в режимі інкогніто</string>
+    <string name="clear_cache">Очистити кеш</string>
+    <string name="message_cache_cleared">Кеш очищений</string>
+    <string name="message_import">Закладки імпортовані</string>
+    <string name="message_clear_history">Історія очищена</string>
+    <string name="message_cookies_cleared">Куки очищені</string>
+    <string name="message_link_copied">Посилання скопійоване до буферу обміну</string>
+    <string name="search_engine_custom">Користувацький URL</string>
+    <string name="message_blocked_local">Локальний файл недоступний для завантаження</string>
+    <string name="suggestion">Шукати</string>
+    <string name="block_ads">Блокувати рекламу</string>
+    <string name="message_insecure_connection">З\'єднання не захищено:\n%1$s\nВсе рівно продовжити?</string>
+    <string name="message_certificate_date_invalid">Дата сертифіката недійсна</string>
+    <string name="message_certificate_expired">Збіг термін дії сертифікату</string>
+    <string name="message_certificate_domain_mismatch">Ім\'я сертифіката не відповідає імені сайту</string>
+    <string name="message_certificate_invalid">Сертифікат недійсний</string>
+    <string name="message_certificate_not_yet_valid">Сертифікат ще не дійсний</string>
+    <string name="message_certificate_untrusted">Сертифікат не являється довіреним</string>
+    <string name="title_form_resubmission">Відправка форми</string>
+    <string name="message_form_resubmission">Ви дйсно хочете повторно відправити дані?</string>
+    <string name="message_location">\nБажаєте використоувати своє місцезнаходження?</string>
+    <string name="action_allow">Дозволити</string>
+    <string name="action_dont_allow">Не дозволяти</string>
+    <string name="title_sign_in">Вхід</string>
+    <string name="hint_username">Ім\'я користувача</string>
+    <string name="hint_password">Пароль</string>
+    <string name="search_suggestions">Підказки пошуку</string>
+    <string name="powered_by_google">Використовуючи Google</string>
+
+    <string name="clear_cookies_exit">Очищати куки при виході</string>
+    <string name="clear_history_exit">Очищати історію при виході</string>
+    <string name="folder_default">По замовчуванню</string>
+    <string name="folder_custom">Вибрати</string>
+    <string name="untitled">Без назви</string>
+    <string name="reopening_recent_tab">Відновити закриту вкладку</string>
+    <string name="rendering_mode">Режим відображення сторінок</string>
+    <string name="name_inverted">Інвертований</string>
+    <string name="name_grayscale">Відтінки сірого</string>
+    <string name="name_inverted_grayscale">Інвертовані відтінки сірого</string>
+    <string name="name_increase_contrast">Підвищений контраст</string>
+    <string name="name_normal">Нормальний</string>
+    <string name="title_file_chooser">Вибір файлу</string>
+    <string name="export_bookmarks">Зробити резервну копію закладок</string>
+    <string name="import_backup">Відновити закладки із резервної копії</string>
+    <string name="bookmark_export_path">Експортувати закладки в </string>
+    <string name="bookmark_settings">Налаштування закладок</string>
+    <string name="import_bookmark_error">Не вдалося імпортувати закладки із файлу</string>
+    <string name="title_chooser">Виберіть файл</string>
+    <string name="settings_general">Основні налаштування</string>
+    <string name="settings_display">Налаштування відображення</string>
+    <string name="settings_privacy">Налаштування приватності</string>
+    <string name="close_tab">Закрити вкладку</string>
+    <string name="close_all_tabs">Закрити всі вкладки</string>
+    <string name="close_other_tabs">Закрити всі інші вкладки</string>
+    <string name="third_party">Блокувати куки зі сторонніх сайтів</string>
+    <string name="color_mode">Включити кольоровий режим</string>
+    <string name="loading">Завантаження&#8230;</string>
+    <string name="url_contents">Вміст поля URL</string>
+    <string name="text_encoding">Кодування тексту</string>
+
+    <string name="url_content_domain">Доменне ім\'я (по замовчуванню)</string>
+    <string name="url_content_title">Заголовок</string>
+
+    <string name="tabs">Вкладки</string>
+    <string name="folder">Ім\'я теки</string>
+    <string name="action_folder">Тека</string>
+    <string name="title_rename_folder">Перейменувати теку</string>
+    <string name="clear_web_storage">Очистити інтернет-сховище</string>
+    <string name="clear_web_storage_exit">Очищати інтернет-сховище при виході</string>
+    <string name="message_web_storage_cleared">інтернет-сховище очищено</string>
+    <string name="tabs_in_drawer">Показувати владки в боковому меню</string>
+    <string name="do_not_track">Запитувати \'Do Not Track\'</string>
+    <string name="remove_identifying_headers">Видаляти ідентифіковані заголовки</string>
+    <string name="action_add_to_homescreen">Додати на домашній екран</string>
+    <string name="message_added_to_homescreen">Ярлик додано на домашній екран</string>
+    <string name="action_delete_all_bookmarks">Видалити всі закладки</string>
+
+    <!-- debug strings -->
+    <string name="settings_adblock">Налаштування блокування реклами</string>
+    <string name="action_downloads">Завантаження</string>
+    <string name="bookmark_export_failure">Вибачте, закладки не вдалося експортувати!</string>
+    <string name="dialog_copy_link">Скопіювати посилання</string>
+    <string name="dialog_delete_all_downloads">Видалити всі завантаження</string>
+    <string name="dialog_download_image">Завантажити картинку</string>
+    <string name="dialog_edit_bookmark">Редагувати закладки</string>
+    <string name="dialog_open_background_tab">Відрити вкладку в фоні</string>
+    <string name="dialog_open_incognito_tab">Відрити в інкогніто-вкладці</string>
+    <string name="dialog_open_new_tab">Відрити в новій вкладці</string>
+    <string name="dialog_remove_bookmark">Видалити закладку</string>
+    <string name="dialog_remove_folder">Видалити теку</string>
+    <string name="dialog_remove_from_history">Видалити з історії</string>
+    <string name="dialog_rename_folder">Перейменувати теку</string>
+    <string name="dialog_title_close_browser">Закрити браузер</string>
+    <string name="label_realm">Серверне повідомлення: %s</string>
+    <string name="message_bookmark_added">Закладка додана</string>
+    <string name="message_open_download_fail">Файл не доступний</string>
+    <string name="powered_by_baidu">Використовуючи Baidu</string>
+    <string name="powered_by_duck">Використовуючи DuckDuckGo</string>
+    <string name="search_suggestions_off">Немає пошукових підказок</string>
+    <string name="settings_black_status_bar">Темний рядок стану</string>
+    <string name="swap_bookmarks_and_tabs">Відобразити закладки в табах</string>
+    <string name="unknown_size">Невідомий розмір</string>
+    <string name="search_engine_yandex">Яндекс</string>
+    <string name="search_engine_yahoo">Yahoo</string>
+    <string name="search_engine_startpage_mobile">StartPage Mobile</string>
+    <string name="search_engine_startpage">StartPage</string>
+    <string name="search_engine_google">Google</string>
+    <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
+    <string name="search_engine_duckduckgo">DuckDuckGo</string>
+    <string name="search_engine_bing">Bing</string>
+    <string name="search_engine_baidu">Baidu</string>
+    <string name="search_engine_ask">Ask</string>
+
+    <string name="tips_not_wifi">В даний момент Ви використовуєте мобільний інтернет, плеєр буде споживати трафік</string>
+    <string name="tips_not_wifi_confirm">Продовжити</string>
+    <string name="tips_not_wifi_cancel">Вийти</string>
+    <string name="no_url">Немає url</string>
+    <string name="replay">Повторити?</string>
+    <string name="click_to_restart">Повторити</string>
+    <string name="video_loading_failed">Помилка завантаження відео</string>
+
+    <string name="action_add_start">Додати на стартову сторінку</string>
+
+    <string name="privacy_police">Політика конфіденційності</string>
+
+    <string name="enable_legacy_22">Включити застарілий формат</string>
+    <string name="enable_legacy_22_sm">Включити старий формат для YouTube 720p (id22)</string>
+
+    <string name="audioYTLow">Низька якість звуку</string>
+    <string name="audioYTLow_sm">Показувати аудіоформати с низькою якістю</string>
+
+    <string name="update_not_found">Оновлення не знайдено</string>
+
+    <string name="label_shortcut_new_tab_long">Відкрити браузер</string>
+
+    <string name="no_item_selected">Нічого не обрано</string>
+</resources>

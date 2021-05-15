@@ -1,14 +1,9 @@
 <resources>
-    <string name="app_name" translatable="false">PowerTube</string>
-    <string name="action_settings">Настройка</string>
+    <string name="action_settings">Настройки</string>
     <string name="format">Формат</string>
     <string name="format_summary">Выбор предпочтительного формата</string>
-    <string name="urll">Ссылка для загрузки</string>
-    <string name="select_f">Выберите формат</string>
+    <string name="select_f">Формат файла</string>
 
-    <string name="download_eta_sec">Примерно осталось %1$ds</string>
-    <string name="download_eta_min">Примерно осталось %1$dm %2$ds</string>
-    <string name="download_eta_hrs">Примерно осталось %1$dh %2$dm %3$ds</string>
     <string name="fetch_notification_download_eta_hrs">Осталось %1$dh %2$dm %3$ds</string>
     <string name="fetch_notification_download_eta_min">Осталось %1$dm %2$ds</string>
     <string name="fetch_notification_download_eta_sec">Осталось %1$ds</string>
@@ -18,7 +13,7 @@
     <string name="pause">Пауза</string>
     <string name="delete">Удалить</string>
     <string name="cancel">Отмена</string>
-    <string name="permission_not_enabled">Программе не предоставлен доступ к памяти, не возможно сохранять видео</string>
+    <string name="permission_not_enabled">Программе не предоставлен доступ к памяти. Сохранение видео невозможно</string>
     <string name="downloading">Загрузка</string>
     <string name="queued">Запрос</string>
     <string name="load_file">Скачать</string>
@@ -38,148 +33,66 @@
     <string name="theme">Тема</string>
     <string name="theme_dl">Выберите тему</string>
 
-    <string-array name="day_night_mode">
-        <item>Авто</item>
-        <item>День</item>
-        <item>Ночь</item>
-    </string-array>
-    <string-array name="theme_list_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
-    <string name="eta" translatable="false">ETA</string>
+    <string name="auto">Авто</string>
+    <string name="day">День</string>
+    <string name="night">Ночь</string>
+
     <string name="file_path">Папка</string>
     <string name="loaded">Загружено</string>
 
     <string name="source_text">Источник</string>
     <string name="add_date">Дата добавления</string>
-    <string name="loader_name">Загрузчик</string>
     <string name="video_res">Разрешение видео</string>
 
-    <string name="notsupporttext">Данная информация не доступна для старых загрузок</string>
     <string name="video_player">Видеоплеер</string>
     <string name="video_player_on">Включить</string>
     <string name="video_player_autoplay">Автовоспроизведение</string>
     <string name="video_player_summary">Отображать видео плеер вместе с информацией о загрузке</string>
     <string name="video_player_summary1">Начинать автоматически воспроизводить видео</string>
-    <string name="listview_imgv">Показывать изображение</string>
-    <string name="listview_imgvisible">Показывать изображение в списке загрузок</string>
     <string name="error">Ошибка</string>
-    <string name="youtube_auto_mp3_m">YouTube в MP3</string>
-    <string name="youtube_auto_mp3">Конвертировать скачанные с YouTube звуковые файлы в MP3</string>
     <string name="list">Список</string>
 
-    <string name="main_edit_hint">Вставьте ссылку</string>
-
     <string name="main_settings">Основные (требуется перезапуск)</string>
-    <string name="autoloadnm">Автозагрузка</string>
-    <string name="autoloadnm_summary">Разрешить автозагрузку</string>
-    <string name="youtube" translatable="false">YouTube</string>
     <string name="del_list">Удалить из списка?</string>
 
-    <string-array name="parser_auto_mode">
-        <item>Автоматически (РЕКОМЕНДУЕТСЯ)</item>
-        <item>Выбранный youtube-dl</item>
-        <item>Выбранный пользователем</item>
 
-    </string-array>
+    <string name="auto_mode">Автоматически (РЕКОМЕНДУЕТСЯ)</string>
+    <string name="ytl_mode">Выбранный youtube-dl</string>
+    <string name="user_mode">Выбранный пользователем</string>
+
     <string name="parser_auto_mode_name">Предпочтительный формат</string>
     <string name="parser_auto_id_format">ID Формата</string>
     <string name="parser_auto_id_mode">Предпочтительный режим</string>
-    <string-array name="parser_auto_id_mode_list">
-        <item>Стандарт</item>
-        <item>3D</item>
-        <item>APPLE</item>
-        <item>MP4 Видео (РЕКОМЕНДУЕТСЯ)</item>
-        <item>MP4 Аудио</item>
-        <item>WEBM Видео (РЕКОМЕНДУЕТСЯ)</item>
-        <item>WEBM Аудио</item>
-        <item>OPUS Аудио</item>
 
-    </string-array>
+    <string name="standard_mode">Стандарт</string>
+    <string name="mp4_v_mode">MP4 Видео (РЕКОМЕНДУЕТСЯ)</string>
+    <string name="mp4_a_mode">MP4 Аудио</string>
+    <string name="webm_v_mode">WEBM Видео (РЕКОМЕНДУЕТСЯ)</string>
+    <string name="webm_a_mode">WEBM Аудио</string>
+    <string name="opus_a_mode">OPUS Аудио</string>
 
-    <string name="server">Сервер</string>
-
-    <string name="hello">Привет</string>
-    <string name="intro1">Спасибо, что установили PowerTube</string>
-    <string name="intro2">Возможности</string>
-    <string name="intro3">Большой список поддерживаемых сайтов, огромный выбор форматов</string>
-    <string name="intro4">Простота</string>
-    <string name="intro5">Все очень просто! \n Нажмите \"Поделиться\" и выберите PowerTube</string>
+    <string name="server">Сервер (Frankfurt)</string>
 
     <string name="sort">Сортировка</string>
 
 
-    <string name="pleas_wait">Пожалуйста подождите</string>
-    <string name="oh_error">Нам очень жаль  но произошла ошибка</string>
-    <string name="title_activity_setting_ex" translatable="false">Settings</string>
+    <string name="pleas_wait">Пожалуйста, подождите</string>
 
-    <string-array name="auto_load_mpe">
-        <item>Разрешить автоматически начинать загрузку с сайтов с заранее выбранным форматом</item>
-        <item>Разрешить автоматически начинать загрузку с всех сайтов</item>
-        <item>Разрешить автоматически начинать загрузку с сайтов где нет возможности выбрать формат или доступен только один</item>
-    </string-array>
 
-    <string name="load_mn">Менеджер загрузки</string>
-    <string name="load_mn_summary">Настройки менеджера загрузки</string>
+    <string name="load_mn">Загрузка</string>
+    <string name="load_mn_summary">Настройки менеджера загрузок</string>
     <string name="paralle_count">Количество потоков</string>
     <string name="paralle_limit">Количество одновременных загрузок</string>
 
-    <string-array name="parallel_cn_name">
-        <item>Авто выбор</item>
-        <item>Последовательная загрузка</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
+    <string name="parallel_cn_name1">Авто выбор</string>
+    <string name="parallel_cn_name2">Последовательная загрузка</string>
 
-    <string-array name="parallel_cn_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-
-
-    <string-array name="parallel_lm_value">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
 
     <!--This section is for basic attributes -->
     <string name="ui_preferences">Внешний вид</string>
     <string name="summary_ui_preference">Настройки внешнего вида</string>
 
 
-    <string name="drawer_all">Все</string>
-    <string name="drawer_download">Загружается</string>
-    <string name="drawer_ready">Завершено</string>
     <string name="drawer_data_up">Дата (по возрастанию)</string>
     <string name="drawer_data_down">Дата (по убыванию)</string>
     <string name="drawer_name_up">Имя (по возрастанию)</string>
@@ -187,7 +100,8 @@
 
 
     <string name="update">Обновление</string>
-    <string name="check_update">Проверить обновление</string>
+    <string name="check_update_1">Проверить обновление</string>
+    <string name="check_update">Проверять обновления</string>
     <string name="check_update_summary">Нажмите для проверки обновления</string>
     <string name="update_summary">Настройка обновления</string>
 
@@ -197,20 +111,10 @@
 
     <string name="update_now">Обновить</string>
 
-    <string name="update_switch_summary">Проверять наличие обновлений при запуске приложения</string>
-    <string name="update_style">Стиль отображение обновлений</string>
-    <string-array name="update_style1">
-        <item>Диалог</item>
-        <item>SnackBars</item>
-    </string-array>
-    <string-array name="update_style1_v1">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
+    <string name="update_switch_summary">Проверять наличие новых версий приложения при запуске</string>
+    <string name="update_style">Стиль отображения обновлений</string>
 
     <string name="other">Другое</string>
-    <string name="download_speed">Скорость загрузки</string>
-    <string name="download_speed_summary">Отображать скорость загрузки в строке уведомлений</string>
 
     <string name="account">Аккаунты</string>
     <string name="account_summary">Авторизация и управление аккаунтами</string>
@@ -218,58 +122,374 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
 
-    <string name="vk" translatable="false">VK</string>
     <string name="auth">Авторизация</string>
-    <string name="auth_summary">Нажмите чтобы войти в аккаунт</string>
+    <string name="auth_summary">Нажмите, чтобы войти в аккаунт</string>
     <string name="token">Информация</string>
 
-    <string name="donate">Поддержать проект</string>
     <string name="bug_report">Сообщить об ошибке</string>
 
-    <string name="add_url_description">Добавить ссылку для загрузки</string>
-
-    <string name="feedback_text">Привет :) Если у вас возникла проблема или есть пожелания напишите мне.</string>
-    <string name="feedback_you_text">Пожалуйста напишите здесь ваш отзыв</string>
+    <string name="feedback_text">Привет! Если у вас возникла проблема или есть пожелания, напишите мне.</string>
+    <string name="feedback_you_text">Пожалуйста, напишите здесь ваш отзыв</string>
     <string name="feedback_info">Добавить информацию об устройстве</string>
-    <string name="feedback_email">Ваш email (необязательно)</string>
     <string name="appupdater_btn_update">Обновить</string>
-    <string name="appupdater_update_available">Доступна новая версия</string>
-    <string name="notsupporttext1">Расширенная информация доступна только для загрузок начиная с версии 3.1.3, для всех предыдущих загрузок будет отображаться это сообщение</string>
-    <string name="er_code">Код ошибки</string>
+    <string name="appupdater_update_available">Доступна новая версия PowerTube!</string>
     <string name="free_mem">Свободно: %1$s</string>
     <string name="drawer_appver">Версия: %1$s</string>
-    <string name="about_appver">Версия %1$s</string>
     <string name="android_auto_update_download_progress">Загрузка:%1$d%%</string>
     <string name="update_chanel_info">Информация о новых обновлениях</string>
 
-    <string name="ffmpeg_split">FFMPEG Объединение</string>
     <string name="dl_complete">Загрузка завершена</string>
-    <string name="ffToMP3">FFMPEG Конвертация в MP3</string>
-    <string name="ff_error">FFMPEG Ошибка</string>
-    <string name="ff_wait">FFMPEG Ожидание</string>
-    <string name="launch_ff">Запуск FFMpeg</string>
-
     <string name="background_work">Выполняется фоновая загрузка</string>
-    <string name="background_work1">Нажмите что бы перейти в приложение</string>
+    <string name="background_work1">Нажмите, чтобы перейти в приложение</string>
     <string name="detail">Подробно</string>
     <string name="status">Статус</string>
-    <string name="getData">Получение данных</string>
     <string name="author">Разработчик</string>
-    <string name="license">Лицензии</string>
     <string name="dl_not_name">Загрузки</string>
     <string name="dl_not_info">Информация о загрузках</string>
-    <string name="resolution_x" translatable="false">%1$sx%2$s</string>
+    <string name="dl_not_name2">Фоновая служба</string>
+    <string name="dl_not_info2">Дополнительная информация о фоновых задачах</string>
     <string name="int_mem">Внутренняя память</string>
     <string name="about_upd">Подробная информация</string>
-    <string name="retry_str">Повторить</string>
     <string name="update_download">Загрузка обновления</string>
-    <string name="url_detect">Обнаружен URL</string>
-    <string name="status_str">Состояние</string>
+    <string name="status_str">Состояние:</string>
     <string name="log_in">Войти</string>
     <string name="log_out">Выйти</string>
     <string name="check">ПРОВЕРКА</string>
     <string name="auth_yes">Вход выполнен</string>
     <string name="auth_no">Вход не выполнен</string>
-	<string name="no_update">Обновлений нет</string>
+    <string name="kz_translate">Казахский</string>
+    <string name="sp_translate">Испанский</string>
+    <string name="translate">Перевод</string>
+    <string name="p4pda">Профиль 4PDA</string>
+    <string name="r_bу">Беларусь</string>
+    <string name="audio_s">Аудио</string>
+    <string name="video_s">Видео</string>
+    <string name="url_detect">Обнаружен URL</string>
+    <string name="in_load">В очереди</string>
+    <string name="add_download">Добавить загрузку</string>
+    <string name="clipboard_str">Буфер обмена</string>
+    <string name="clipboard_title">Поиск URL</string>
+    <string name="clipboard_text">Проверять наличие ссылок в буфере обмена при запуске</string>
+    <string name="clipboard_set">Настройка мониторинга буфера обмена</string>
+    <string name="sel_item">Выберите</string>
+    <string name="sel_item_count">Выбрано: </string>
+    <string name="format_detail_info">Информация</string>
+    <string name="vcodec_str">Видеокодек</string>
+    <string name="acodec_str">Аудиокодек</string>
+    <string name="stop_app">Остановить приложение?</string>
+    <string name="stop_app_summary">Все загрузки будут остановлены. Приложение будет принудительно выгружено из памяти</string>
+    <string name="info_str">Информация</string>
+    <string name="opt_str">Оптимизировать</string>
+    <string name="action_str">Действия</string>
+    <string name="cacheSize_str">Размер кэша изображений</string>
+    <string name="clear_str">Очистить</string>
+    <string name="qual_str">Качество изображений</string>
 
+    <string name="maximum">Максимальное</string>
+    <string name="high">Высокое</string>
+    <string name="medium">Среднее</string>
+    <string name="low">Низкое</string>
+
+    <string name="cache_str">Кэш</string>
+    <string name="cache_str_summary">Настройка кэша изображений</string>
+    <string name="other_settings">Другие настройки</string>
+    <string name="other_click">Нажмите, чтобы получить дополнительную информацию</string>
+    <string name="url_un_detect">Ссылка не найдена</string>
+    <string name="play_video">Воспроизвести</string>
+    <string name="tapdownload">Нажмите для загрузки</string>
+    <string name="copy_url">Скопировать URL</string>
+
+    <string name="beta_upd_name">Тестовые обновления</string>
+    <string name="beta_upd_summary">Проверять наличие новых тестовых версий приложения</string>
+
+    <string name="ffmpeg_tasklist">Список задач</string>
+    <string name="ffmpeg_tasklist_summary">Информация о выполняемых ffmpeg действиях</string>
+    <string name="active_load_desc">Здесь будут отображаться активные загрузки</string>
+    <string name="compleate_download_desc">Здесь будут отображаться завершённые загрузки</string>
+    <string name="size_gb">Гб</string>
+    <string name="size_mb">Мб</string>
+    <string name="size_kb">Кб</string>
+    <string name="size_b">Байт</string>
+    <string name="b_fl_ver">Отключить рекламу</string>
+    <string name="file_exits">Файл с таким именем уже существует в данной папке</string>
+    <string name="sr_translate">Cербский</string>
+    <string name="uk_translate">Украинский</string>
+    <string name="hide_dash">Не показывать MPEG-DASH форматы</string>
+    <string name="hide_dash_summary">Видео формата MPEG-DASH загружаться не будут</string>
+
+
+    <string name="app_url">https://4pda.ru/forum/index.php?showtopic=896845</string>
+    <string name="chg_summary">Данное приложение повреждено, использование модификаций небезопасно. Удалите это приложение и загрузите новое из надежного источника.</string>
+    <string name="chg_detect">Обнаружено изменение</string>
+
+    <string name="free_space_title">Недостаточно места</string>
+    <string name="free_space_lost">Требуется места: %1$s\nДоступно: %2$s\nОсвободите место или выберите другое расположение.\n\nНачать загрузку в любом случае?</string>
+    <string name="enableBrowser_summary">Использовать встроенный браузер</string>
+    <string name="enableBrowser_title">Включить браузер</string>
+    <string name="enableAV1F_summary">Показывать видео, в которых используется кодек AV1 в списке форматов</string>
+    <string name="enableAV1F_title">Включить AV1</string>
+    <string name="preference_title_search_engine_id">Поисковая система</string>
+    <string name="preference_title_clear_history">Очистить историю</string>
+    <string name="preference_title_clear_cookies">Очистить файлы Cookie</string>
+    <string name="preference_title_show_soft_keyboard">Показать клавиатуру</string>
+    <string name="preference_summary_show_soft_keyboard">Показывать клавиатуру при открытии новой вкладки.</string>
+
+    <string name="browser_setting_name">Браузер</string>
+    <string name="browser_setting_summary">Настройки встроенного браузера</string>
+    <string name="appintro1M">Добро пожаловать в PowerTube!</string>
+    <string name="appintro2M">Авторское право</string>
+    <string name="appintro2S">PowerTube предназначен только для личного пользования. Использование PowerTube в коммерческих целях, распространение материалов или иные действия, нарушающие авторские права, строго запрещены.</string>
+    <string name="appintro3M">Шаг 1</string>
+    <string name="appintro4M">Шаг 2</string>
+    <string name="appintro5M">Шаг 2+</string>
+    <string name="appintro6M">Шаг 3</string>
+    <string name="appintro7M">Шаг 4</string>
+    <string name="appintro8M">Загрузка</string>
+    <string name="appintro9M">Браузер</string>
+    <string name="appintro10M">Это ещё не все</string>
+    <string name="appintro10S">Это лишь небольшое количество функций. С остальными функциями вы познакомитесь во время использования приложения.</string>
+    <string name="appintro9S">Браузер с технологией AMELI AI позволит вам скачать практически любое видео.</string>
+    <string name="appintro8S">Помимо обычных функций загрузки, приложение поддерживает многопоточную загрузку, MPD и HLS.</string>
+    <string name="appintro7S">Большой выбор форматов: \n144p-8K, 60FPS и HDR</string>
+    <string name="appintro6S">Выберите название загружаемого файла, его формат и папку сохранения.</string>
+    <string name="appintro5S">PowerTube также поддерживает загрузку плейлистов.</string>
+    <string name="appintro4S">Нажмите на кнопку \"Поделиться\" и выберите PowerTube.</string>
+    <string name="appintro1S">Сейчас вы сможете ознакомиться с функциями и возможностями приложения.</string>
+    <string name="appintro3S">Откройте приложение, из которого вы хотите загрузить видео.</string>
+    <string name="help">Помощь</string>
+    <string name="merge">Объединение</string>
+
+    <string name="access_problem">У приложения нет доступа к этой папке, чтобы предоставить доступ нажмите \"OK\" и выберите папку.</string>
+    <string name="no_access">Доступ не предоставлен</string>
+    <string name="save">Сохранить</string>
+    <string name="reset">Сброс</string>
+    <string name="name_sample">Образец имени</string>
+    <string name="name_pattern">Шаблон имени файла</string>
+    <string name="open_embed_browser">Открыть браузер PowerTube</string>
+    <string name="dont_show_again">Больше не показывать</string>
+
+
+    <string name="site_auth_error">Для загрузки требуется авторизация, откройте сайт и войдите в аккаунт.</string>
+
+    <string name="exception_auth">Требуется авторизация</string>
+    <string name="exception_not_support">Произошла ошибка. Загрузка не удалась.</string>
+    <string name="exception_cookie">Обновите Cookie</string>
+
+    <string name="exit">Закрыть браузер</string>
+
+    <string name="fslw">Мастер первого запуска</string>
+
+    <string name="action_new_tab">Создать вкладку</string>
+    <string name="action_share">Отправить ссылку</string>
+    <string name="action_history">История</string>
+    <string name="action_bookmarks">Закладки</string>
+    <string name="action_add_bookmark">Добавить закладку</string>
+    <string name="action_copy">Копировать ссылку</string>
+    <string name="action_forward">Вперёд</string>
+
+    <string name="location">Местоположение</string>
+    <string name="password">Сохранять пароли</string>
+    <string name="agent">User Agent</string>
+    <string name="home">Новая вкладка</string>
+    <string name="fullscreen">Во весь экран</string>
+    <string name="java">Включить JavaScript</string>
+    <string name="download">Путь загрузки</string>
+    <string name="settings_advanced">Дополнительно</string>
+    <string name="cache">Очищать кэш при выходе</string>
+    <string name="reflow">Перекомпоновка</string>
+    <string name="block">Без изображений</string>
+    <string name="window">Разрешить всплывающие окна</string>
+    <string name="cookies">Включить куки</string>
+    <string name="recommended">Рекомендуется</string>
+    <string name="search">Поисковая система</string>
+    <string name="search_hint">Поиск</string>
+    <string name="wideViewPort">Широкий вид</string>
+    <string name="overViewMode">Загружать обзор</string>
+    <string name="restore">Восстановление предыдущей сессии</string>
+    <string name="fullScreenOption">Без строки состояния</string>
+    <string name="clear_cookies">Очистить куки</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="action_download">Загрузить</string>
+    <string name="action_open">Открыть</string>
+    <string name="dialog_title_share">Способ передачи</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_blank">Пустая страница</string>
+    <string name="agent_default">По умолчанию</string>
+    <string name="agent_desktop">Стандартный</string>
+    <string name="agent_mobile">Мобильный</string>
+    <string name="agent_custom">Выбрать</string>
+    <string name="title_search_engine">Поисковая система</string>
+    <string name="action_ok">OK</string>
+    <string name="dialog_download">Загрузить файл? (%1$s)</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="title_warning">Внимание</string>
+    <string name="title_user_agent">User Agent</string>
+    <string name="title_download_location">Путь загрузки</string>
+    <string name="title_custom_homepage">Введите адрес</string>
+    <string name="action_webpage">Открыть адрес</string>
+    <string name="title_clear_history">Очистить историю</string>
+    <string name="title_clear_cookies">Очистить куки</string>
+    <string name="dialog_history">История будет удалена. Продолжить?</string>
+    <string name="dialog_cookies">Куки будут удалены. Продолжить?</string>
+    <string name="action_yes">Да</string>
+    <string name="action_no">Нет</string>
+    <string name="title_text_size">Размер текста</string>
+    <string name="title_error">Ошибка</string>
+    <string name="hint_title">Название</string>
+    <string name="hint_url">Адрес</string>
+    <string name="title_edit_bookmark">Правка закладки</string>
+    <string name="action_incognito">Инкогнито-вкладка</string>
+    <string name="action_homepage">Домой</string>
+    <string name="action_back">Назад</string>
+    <string name="action_find">Найти на странице</string>
+    <string name="download_pending">Загрузка\u2026</string>
+    <string name="cannot_download">Загрузка возможна только с \"http\" или \"https\" адресов</string>
+    <string name="problem_download">Некорректный URL, загрузка невозможна</string>
+    <string name="problem_location_download">Невозможно загрузить по указанному пути</string>
+    <string name="download_no_sdcard_dlg_title">Нет карты памяти</string>
+    <string name="download_no_sdcard_dlg_msg">Для загрузки файла необходима карта памяти</string>
+    <string name="download_sdcard_busy_dlg_title">Карта памяти недоступна</string>
+    <string name="download_sdcard_busy_dlg_msg">Карта памяти подключена к ПК. Для начала загрузки отключите её от ПК, нажав на уведомление.</string>
+    <string name="incognito_cookies">Включить куки в режиме инкогнито</string>
+    <string name="clear_cache">Очистить кэш</string>
+    <string name="message_cache_cleared">Кэш очищен</string>
+    <string name="message_import">Закладки импортированы</string>
+    <string name="message_clear_history">История очищена</string>
+    <string name="message_cookies_cleared">Куки очищены</string>
+    <string name="message_link_copied">Ссылка скопирована в буфер обмена</string>
+    <string name="search_engine_custom">Пользовательский URL</string>
+    <string name="message_blocked_local">Локальный файл недоступен для загрузки</string>
+    <string name="suggestion">Искать</string>
+    <string name="block_ads">Блокировать рекламу</string>
+    <string name="message_insecure_connection">Соединение не защищено:\n%1$s\nВсё равно продолжить?</string>
+    <string name="message_certificate_date_invalid">дата сертификата недействительна</string>
+    <string name="message_certificate_expired">истёк срок действия сертификата</string>
+    <string name="message_certificate_domain_mismatch">имя сертификата не соответствует имени сайта</string>
+    <string name="message_certificate_invalid">сертификат недействителен</string>
+    <string name="message_certificate_not_yet_valid">сертикат ещё не действителен</string>
+    <string name="message_certificate_untrusted">сертификат не является доверенным</string>
+    <string name="title_form_resubmission">Отправка формы</string>
+    <string name="message_form_resubmission">Вы действительно хотите повторно отправить данные?</string>
+    <string name="message_location">\nХотите использовать своё местоположение?</string>
+    <string name="action_allow">Разрешить</string>
+    <string name="action_dont_allow">Не разрешать</string>
+    <string name="title_sign_in">Вход</string>
+    <string name="hint_username">Имя пользователя</string>
+    <string name="hint_password">Пароль</string>
+    <string name="search_suggestions">Подсказки поиска</string>
+    <string name="powered_by_google">Используя Google</string>
+
+    <string name="clear_cookies_exit">Очищать куки при выходе</string>
+    <string name="clear_history_exit">Очищать историю при выходе</string>
+    <string name="folder_default">По умолчанию</string>
+    <string name="folder_custom">Выбрать</string>
+    <string name="untitled">Без названия</string>
+    <string name="reopening_recent_tab">Восстановить закрытую вкладку</string>
+    <string name="rendering_mode">Режим отображения страниц</string>
+    <string name="name_inverted">Инвертированный</string>
+    <string name="name_grayscale">Оттенки серого</string>
+    <string name="name_inverted_grayscale">Инвертированные оттенки серого</string>
+    <string name="name_increase_contrast">Повышенный контраст</string>
+    <string name="name_normal">Нормальный</string>
+    <string name="title_file_chooser">Выбор файла</string>
+    <string name="export_bookmarks">Сделать резервную копию закладок</string>
+    <string name="import_backup">Восстановить закладки из резервной копии</string>
+    <string name="bookmark_export_path">Экспортировать закладки в </string>
+    <string name="bookmark_settings">Настройки закладок</string>
+    <string name="import_bookmark_error">Не удалось импортировать закладки из файла</string>
+    <string name="title_chooser">Выберите файл</string>
+    <string name="settings_general">Основные настройки</string>
+    <string name="settings_display">Настройки отображения</string>
+    <string name="settings_privacy">Настройки приватности</string>
+    <string name="close_tab">Закрыть вкладку</string>
+    <string name="close_all_tabs">Закрыть все вкладки</string>
+    <string name="close_other_tabs">Закрыть остальные вкладки</string>
+    <string name="third_party">Блокировать куки со сторонних сайтов</string>
+    <string name="color_mode">Включить цветной режим</string>
+    <string name="loading">Загрузка&#8230;</string>
+    <string name="url_contents">Содержимое поля URL</string>
+    <string name="text_encoding">Кодировка текста</string>
+
+    <string name="url_content_domain">Доменное имя (по умолчанию)</string>
+    <string name="url_content_title">Заголовок</string>
+
+    <string name="tabs">Вкладки</string>
+    <string name="folder">Имя директории</string>
+    <string name="action_folder">Директория</string>
+    <string name="title_rename_folder">Переименовать директорию</string>
+    <string name="clear_web_storage">Очистить интернет-хранилище</string>
+    <string name="clear_web_storage_exit">Очищать интернет-хранилище при выходе</string>
+    <string name="message_web_storage_cleared">Интернет-хранилище очищено</string>
+    <string name="tabs_in_drawer">Показывать владки в боковом меню</string>
+    <string name="do_not_track">Запрашивать \'Do Not Track\'</string>
+    <string name="remove_identifying_headers">Удалять идентифиц. заголовки</string>
+    <string name="action_add_to_homescreen">Добавить на дом. экран</string>
+    <string name="message_added_to_homescreen">Ярлык добавлен на домашний экран</string>
+    <string name="action_delete_all_bookmarks">Удалить все закладки</string>
+
+    <!-- debug strings -->
+    <string name="settings_adblock">Настройки блокировки рекламы</string>
+    <string name="action_downloads">Загрузки</string>
+    <string name="bookmark_export_failure">Извините, закладки не удалось экспортировать!</string>
+    <string name="dialog_copy_link">Скопировать ссылку</string>
+    <string name="dialog_delete_all_downloads">Удалить все загрузки</string>
+    <string name="dialog_download_image">Загрузить картинку</string>
+    <string name="dialog_edit_bookmark">Редактировать закладки</string>
+    <string name="dialog_open_background_tab">Открыть вкладку в фоне</string>
+    <string name="dialog_open_incognito_tab">Открыть в инкогнито-вкладке</string>
+    <string name="dialog_open_new_tab">Открыть в новой вкладке</string>
+    <string name="dialog_remove_bookmark">Удалить закладку</string>
+    <string name="dialog_remove_folder">Удалить папку</string>
+    <string name="dialog_remove_from_history">Удалить из истории</string>
+    <string name="dialog_rename_folder">Переименовать папку</string>
+    <string name="dialog_title_close_browser">Закрыть браузер</string>
+    <string name="label_realm">Серверное сообщение: %s</string>
+    <string name="message_bookmark_added">Закладка добавлена</string>
+    <string name="message_open_download_fail">Файл не доступен</string>
+    <string name="powered_by_baidu">Используя Baidu</string>
+    <string name="powered_by_duck">Используя DuckDuckGo</string>
+    <string name="search_suggestions_off">Нет поисковых подсказок</string>
+    <string name="settings_black_status_bar">Тёмная строка состояния</string>
+    <string name="swap_bookmarks_and_tabs">Отобразить закладки в табах</string>
+    <string name="unknown_size">Неизвестный размер</string>
+    <string name="search_engine_yandex">Яндекс</string>
+    <string name="search_engine_yahoo">Yahoo</string>
+    <string name="search_engine_startpage_mobile">StartPage Mobile</string>
+    <string name="search_engine_startpage">StartPage</string>
+    <string name="search_engine_google">Google</string>
+    <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
+    <string name="search_engine_duckduckgo">DuckDuckGo</string>
+    <string name="search_engine_bing">Bing</string>
+    <string name="search_engine_baidu">Baidu</string>
+    <string name="search_engine_ask">Ask</string>
+
+    <string name="tips_not_wifi">В данный момент вы используете мобильный интернет, плеер будет потреблять трафик</string>
+    <string name="tips_not_wifi_confirm">Продолжить</string>
+    <string name="tips_not_wifi_cancel">Выйти</string>
+    <string name="no_url">Нет url</string>
+    <string name="replay">Повторить?</string>
+    <string name="click_to_restart">Повторить</string>
+    <string name="video_loading_failed">Ошибка загрузки видео</string>
+
+    <string name="action_add_start">Добавить на стартовую страницу</string>
+
+    <string name="privacy_police">Политика конфиденциальности</string>
+
+    <string name="enable_legacy_22">Включить устаревший формат</string>
+    <string name="enable_legacy_22_sm">Включить старый формат для YouTube 720p (id22)</string>
+
+    <string name="audioYTLow">Низкое качество звука</string>
+    <string name="audioYTLow_sm">Показывать аудиоформаты с низким качеством</string>
+
+    <string name="update_not_found">Обновление не найдено</string>
+
+    <string name="label_shortcut_new_tab_long">Открыть браузер</string>
+
+    <string name="no_item_selected">Ничего не выбрано</string>
+
+    <string name="regional_settings">Региональные настройки</string>
+
+    <string name="release_date">Дата: %1$s</string>
+    <string name="changelog">Список изменений</string>
+    <string name="ready_to_download">Обновление готово к загрузке</string>
 </resources>

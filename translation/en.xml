@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name" translatable="false">PowerTube</string>
+    <string name="youtube" translatable="false">YouTube</string>
+    <string name="title_activity_setting_ex" translatable="false">Settings</string>
+    <string name="vk" translatable="false">VK</string>
+    <string name="resolution_x" translatable="false">%1$sx%2$s</string>
+
     <string name="action_settings">Settings</string>
-    <string name="urll">URL</string>
+    <string name="url" translatable="false">URL</string>
     <string name="select_f">Select format</string>
     <string name="format">Format</string>
-    <string name="download_eta_sec">%1$ds left</string>
-    <string name="download_eta_min">%1$dm %2$ds left</string>
-    <string name="download_eta_hrs">%1$dh %2$dm %3$ds left</string>
     <string name="download_speed_bytes">%1$d B/s</string>
     <string name="download_speed_kb">%1$s KB/s</string>
     <string name="download_speed_mb">%1$s MB/s</string>
@@ -14,7 +17,7 @@
     <string name="delete">Delete</string>
     <string name="cancel">Cancel</string>
     <string name="permission_not_enabled">Please enable the Write External Storage Permission</string>
-    <string name="downloading">downloading…</string>
+    <string name="downloading">Downloading</string>
     <string name="queued">QUEUED</string>
     <string name="open_file">Open</string>
     <string name="file_name">File name</string>
@@ -30,24 +33,19 @@
     <string name="error">Error</string>
     <string name="video_player_on">On</string>
     <string name="video_player">Video player</string>
-    <string name="loader_name">Downloader</string>
     <string name="source_text">Source</string>
     <string name="theme">Style</string>
     <string name="file_path">Folder</string>
     <string name="loaded">Complete</string>
     <string name="video_res">Resolution</string>
-    <string name="video_player_autoplay">Autostart</string>
+    <string name="video_player_autoplay">Auto start</string>
     <string name="main_settings">Main</string>
     <string name="del_list">Delete from list?</string>
     <string name="parser_auto_id_format">Format ID</string>
     <string name="server">Server</string>
-    <string name="hello">Hello</string>
     <string name="sort">Sort</string>
     <string name="add_date">Date added</string>
     <string name="parser_auto_mode_name">Format selection mode</string>
-    <string name="autoloadnm">Autoload</string>
-    <string name="youtube_auto_mp3_m">YouTube to MP3</string>
-    <string name="intro4">Simple</string>
     <string name="ui_preferences">UI</string>
     <string name="summary_ui_preference">Appearance settings</string>
     <string name="save_dir_summary">Folder to save video</string>
@@ -55,16 +53,10 @@
     <string name="parser_auto_id_mode">Preferred mode</string>
     <string name="paralle_count">Number of threads</string>
     <string name="paralle_limit">Number of concurrent downloads</string>
-    <string name="main_edit_hint">Link</string>
     <string name="load_mn">Download manager</string>
     <string name="load_mn_summary">Download Manager tweaks</string>
-    <string name="listview_imgv">Show image</string>
-    <string name="listview_imgvisible">Show image in download list</string>
-    <string name="video_player_summary1">Auto playe video</string>
+    <string name="video_player_summary1">Auto play video</string>
     <string name="video_player_summary">Show video player</string>
-    <string name="drawer_all">All</string>
-    <string name="drawer_download">Downloading</string>
-    <string name="drawer_ready">Ready</string>
     <string name="drawer_name_down">Name (descending)</string>
     <string name="drawer_name_up">Name (ascending)</string>
     <string name="drawer_data_up">Date (ascending)</string>
@@ -74,20 +66,15 @@
     <string name="fetch_notification_download_eta_hrs">%1$dh %2$dm %3$ds left</string>
     <string name="format_summary">The selection of a preferred format</string>
     <string name="theme_dl">Chosen theme</string>
-    <string name="youtube_auto_mp3">Convert downloaded YouTube audio files to MP3</string>
     <string name="account">Account</string>
     <string name="add_url">Add</string>
     <string name="appupdater_btn_update">Update</string>
     <string name="check_update">Check update</string>
+    <string name="check_update_1">Check update</string>
     <string name="bug_report">Bug report</string>
-    <string name="donate">Donate</string>
-    <string name="download_speed">Download speed</string>
-    <string name="download_speed_summary">Show download speed</string>
     <string name="empty_list">List empty</string>
-    <string name="feedback_email">Email</string>
     <string name="feedback_info">Add device info</string>
     <string name="feedback_you_text">Please write your feedback</string>
-    <string name="intro1">Thanks for installing PowerTube</string>
     <string name="no">no</string>
     <string name="other">Other</string>
     <string name="token">Info</string>
@@ -96,106 +83,495 @@
     <string name="update_summary">Update settings</string>
     <string name="update_switch_summary">Check for updates on application startup</string>
     <string name="yes">Yes</string>
-    <string name="notsupporttext">This information is not available for older downloads</string>
     <string name="clear_all_summary">Uploaded files will NOT be deleted</string>
     <string name="check_update_summary">Click to check for updates</string>
-    <string name="autoloadnm_summary">Allow startup</string>
     <string name="auth_summary">Click to sign in</string>
     <string name="appupdater_update_available">New version available</string>
-    <string name="add_url_description">Add download link</string>
     <string name="account_summary">Authorization and account management</string>
-    <string name="oh_error">We\'re sorry, but there was a mistake.</string>
-    <string name="notsupporttext1">"Advanced information is only available for downloads starting from version 3.1.3, this message will be displayed for all previous downloads "</string>
     <string name="update_style">Style display updates</string>
     <string name="auth">Authorization</string>
     <string name="update_avaible">New update available</string>
-    <string name="er_code">Error code</string>
     <string name="background_work">Background download in progress</string>
     <string name="background_work1">Click to go to the app</string>
-    <string name="ff_error">FFMPEG Error</string>
-    <string name="ffmpeg_split">FFMPEG Merging</string>
-    <string name="ffToMP3">FFMPEG Convert to MP3</string>
-    <string name="ff_wait">FFMPEG Waiting</string>
+
     <string name="dl_complete">Download complete</string>
     <string name="android_auto_update_download_progress">Download:%1$d%%</string>
-    <string name="license">Licenses</string>
     <string name="status">Status</string>
     <string name="update_chanel_info">Information about new updates</string>
     <string name="detail">Detailed</string>
     <string name="drawer_appver">Version: %1$s</string>
     <string name="free_mem">Free: %1$s</string>
-    <string name="getData">Receive data</string>
     <string name="author">Developer</string>
-    <string name="launch_ff">Run FFMpeg</string>
     <string name="dl_not_name">Download</string>
     <string name="dl_not_info">Download information</string>
+    <string name="dl_not_name2">Background service</string>
+    <string name="dl_not_info2">Additional information about background tasks</string>
     <string name="int_mem">Internal memory</string>
     <string name="about_upd">Detailed information</string>
-    <string name="retry_str">Retry</string>
     <string name="update_download">Download updates</string>
-    <string name="url_detect">Found URL</string>
     <string name="feedback_text">Hello :) if you have a problem or have feedback email me.</string>
-    <string name="intro5">It\'s simple! \n \"Click Share\" and choose PowerTube</string>
-    <string name="intro3">A large list of supported sites, a huge selection of formats</string>
-    <string name="intro2">Many functions</string>
+    <string name="settings_adblock">Ad Block Settings</string>
+
+    <string name="parallel_cn_name1">Auto select</string>
+    <string name="parallel_cn_name2">Sequential download</string>
 
 
-    <string-array name="parallel_cn_name">
-        <item>Auto select</item>
-        <item>Sequential download</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="auto_load_mpe">
-        <item>Allow automatically start downloading from sites with pre-selected format</item>
-        <item>Allow all sites to start downloading automatically</item>
-        <item>Allow automatic downloads from sites where you cannot select a format or only one is available</item>
-    </string-array>
-    <string-array name="parser_auto_id_mode_list">
-        <item>Standard</item>
-        <item>3D</item>
-        <item>APPLE</item>
-        <item>MP4 Video (RECOMMENDED)</item>
-        <item>MP4 Audio</item>
-        <item>WEBM Video (RECOMMENDED)</item>
-        <item>WEBM Audio</item>
-        <item>OPUS Audio</item>
-    </string-array>
-    <string-array name="parser_auto_mode">
-        <item>Automatic (RECOMMENDED)</item>
-        <item>Selected by youtube-dl</item>
-        <item>Selected by user</item>
-    </string-array>
-    <string-array name="day_night_mode">
-        <item>Auto</item>
-        <item>Day</item>
-        <item>Night</item>
-    </string-array>
-    <string-array name="update_style1">
-        <item>Dialog</item>
-        <item>SnackBars</item>
-    </string-array>
+    <string name="standard_mode">Standard</string>
+    <string name="mp4_v_mode">MP4 Video (RECOMMENDED)</string>
+    <string name="mp4_a_mode">MP4 Audio</string>
+    <string name="webm_v_mode">WEBM Video (RECOMMENDED)</string>
+    <string name="webm_a_mode">WEBM Audio</string>
+    <string name="opus_a_mode">OPUS Audio</string>
+
+    <string name="auto_mode">Automatic (RECOMMENDED)</string>
+    <string name="ytl_mode">Selected by youtube-dl</string>
+    <string name="user_mode">Selected by user</string>
+
+    <string name="auto">Auto</string>
+    <string name="day">Day</string>
+    <string name="night">Night</string>
+
+    <string name="dialog">Dialog</string>
+    <string name="snack_bars">SnackBars</string>
+
     <string name="log_in">Login</string>
     <string name="log_out">Logout</string>
     <string name="check">CHECK</string>
     <string name="status_str">Status</string>
-    <string name="about_appver">Version %1$s</string>
     <string name="auth_yes">Signed in</string>
     <string name="auth_no">You are not logged in</string>
-	<string name="no_update">No update</string>
     <string name="kz_translate">Kazakh</string>
     <string name="sp_translate">Spanish</string>
-    <string name="cl_to_change">Click to change</string>
+    <string name="sr_translate">Serbian</string>
+    <string name="uk_translate">Ukrainian</string>
     <string name="translate">Translation</string>
     <string name="p4pda">4PDA profile</string>
     <string name="r_bу">Belarus</string>
-    <string name="w_error">Errors</string>
-	
+    <string name="audio_s">Audio</string>
+    <string name="video_s">Video</string>
+    <string name="in_load">Queued</string>
+    <string name="url_detect">Detect URL</string>
+    <string name="add_download">Add download</string>
+    <string name="clipboard_str">Clipboard</string>
+    <string name="clipboard_set">Configuring buffer monitoring</string>
+    <string name="clipboard_title">Search URL</string>
+    <string name="clipboard_text">Check for links on the clipboard at startup</string>
+    <string name="stop_app">Stop APP?</string>
+
+    <string name="cache_str">Cache</string>
+    <string name="cache_str_summary">Image cache setting</string>
+    <string name="other_settings">Other settings</string>
+    <string name="other_click">Click for more information</string>
+    <string name="info_str">Info</string>
+    <string name="opt_str">Optimization</string>
+    <string name="action_str">Action</string>
+    <string name="cacheSize_str">The size of the cache images</string>
+    <string name="clear_str">Clear</string>
+    <string name="qual_str">Image quality</string>
+
+
+    <string name="maximum">Maximum</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+
+    <string name="sel_item">Select</string>
+    <string name="sel_item_count">Selected: </string>
+    <string name="format_detail_info">Info</string>
+    <string name="vcodec_str">Video codec</string>
+    <string name="acodec_str">Audio codec</string>
+    <string name="stop_app_summary">All tasks will be stopped the application will be forcibly unloaded from memory</string>
+    <string name="play_video">Play</string>
+    <string name="tapdownload">Click to download</string>
+    <string name="copy_url">Copy URL</string>
+    <string name="beta_upd_name">Test update</string>
+    <string name="url_un_detect">Link not found</string>
+    <string name="beta_upd_summary">Display information about test updates</string>
+    <string name="ffmpeg_tasklist">Task list</string>
+    <string name="ffmpeg_tasklist_summary">Information about actions performed by ffmpeg</string>
+
+    <string name="active_load_desc">Here you can find active downloads</string>
+    <string name="compleate_download_desc">Completed downloads will be displayed here</string>
+
+
+    <string name="size_gb">Gb</string>
+    <string name="size_mb">Mb</string>
+    <string name="size_kb">Kb</string>
+    <string name="size_b">Byte</string>
+
+
+    <string name="preference_title_show_soft_keyboard">Show soft keyboard</string>
+    <string name="preference_summary_show_soft_keyboard">Auto show soft keyboard when new tab.</string>
+    <string name="preference_title_search_engine_id">Search engine</string>
+    <string name="preference_title_enable_multiple_windows">Multiple windows</string>
+    <string name="preference_title_clear_history">Clear history</string>
+    <string name="preference_title_clear_cookies">Clear cookies</string>
+    <string name="b_fl_ver">Disable ads</string>
+    <string name="file_exits">A file with this name is already in the folder</string>
+
+    <string name="hide_dash">Hide MPEG-DASH format</string>
+    <string name="hide_dash_summary">Disable download MPEG-DASH video</string>
+
+    <string name="browser_setting_name">Browser</string>
+    <string name="browser_setting_summary">Embedded browser settings</string>
+
+
+    <string name="chg_detect">Change detected</string>
+    <string name="chg_summary">This application is damaged and it is not safe. Delete this app and download a new one from a trusted source.</string>
+    <string name="app_url">https://labs.xda-developers.com/store/app/ussr.razar.youtube_dl</string>
+    <string name="free_space_title">Not enough space</string>
+    <string name="free_space_lost">Required: %1$s\nAvailable: %2$s\nFree up space or select another location.\n\nStart downloading anyway?</string>
+    <string name="enableAV1F_title">Enable AV1</string>
+    <string name="enableAV1F_summary">Enable AV1 video format</string>
+    <string name="enableBrowser_title">Enable browser</string>
+    <string name="enableBrowser_summary">Use the built-in browser</string>
+    <string name="site_title">Website</string>
+
+    <string name="appintro1M">Welcome to PowerTube!</string>
+    <string name="appintro1S">Now you can get acquainted with the functions and features of the app.</string>
+    <string name="appintro2M">Copyright</string>
+    <string name="appintro2S">PowerTube must be used for private uses only.  Any commercial use, redistribution or actions that can lead to violation of intellectual property using PowerTube is strictly prohibited.</string>
+    <string name="appintro3M">Step 1</string>
+    <string name="appintro3S">Open the app you want to download the video from.</string>
+    <string name="appintro4M">Step 2</string>
+    <string name="appintro4S">Tap on the \"Share\" button and choose PowerTube.</string>
+    <string name="appintro5M">Step 2+</string>
+    <string name="appintro5S">Support for downloading playlists.</string>
+    <string name="appintro6M">Step 3</string>
+    <string name="appintro6S">Select a name, format, and folder path.</string>
+    <string name="appintro7M">Step 4</string>
+    <string name="appintro7S">Large selection of formats: \n144p - 8K, 60FPS and HDR</string>
+    <string name="appintro8M">Download</string>
+    <string name="appintro8S">Besides the usual loading functions, the app supports multithreaded loading, MPD and HLS.</string>
+    <string name="appintro9M">Browser</string>
+    <string name="appintro9S">The browser with AMELI AI technology will allow you to download almost any video.</string>
+    <string name="appintro10M">That\'s not all</string>
+    <string name="appintro10S">This is only a small number of features.</string>
+    <string name="help">Help</string>
+    <string name="merge">Merge</string>
+
+
+    <string name="open_embed_browser">Open PowerTube browser</string>
+
+    <string name="site_not_support">Sorry but it looks like an error occurred. Please try again later. If the error persists contact technical support.  ERROR - SERVER_RETURN_NULL</string>
+
+    <string name="access_problem">The application does not have access to this folder, to grant access, click "OK" and select the folder.</string>
+    <string name="no_access">Access not granted</string>
+
+    <string name="name_pattern">File name pattern</string>
+    <string name="name_sample">Name sample</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+
+    <string name="new_folder">New_folder</string>
+    <string name="dont_show_again">Don\'t show it again</string>
+
+    <string name="site_auth_error">To download, you need to log in, open the site and log in to your account.</string>
+
+    <string name="exception_auth">Authorization required</string>
+    <string name="exception_not_support">An error occurred the download failed</string>
+    <string name="exception_cookie">Update Your Cookie</string>
+
+
+    <!-- NEW BROWSER-->
+    <string name="action_new_tab">New tab</string>
+    <string name="action_share">Share</string>
+    <string name="action_history">History</string>
+    <string name="action_bookmarks">Bookmarks</string>
+    <string name="action_start_page">Start page</string>
+    <string name="action_downloads">Downloads</string>
+    <string name="action_add_bookmark">Add bookmark</string>
+    <string name="action_add_start">Add to start page</string>
+    <string name="action_copy">Copy link</string>
+    <string name="action_forward">Forward</string>
+    <string name="location">Location access</string>
+    <string name="password">Save your passwords</string>
+    <string name="agent">User agent</string>
+    <string name="home">Homepage</string>
+    <string name="fullscreen">Full-screen mode</string>
+    <string name="java">Enable JavaScript</string>
+    <string name="download">Download location</string>
+    <string name="settings_advanced">Advanced Settings</string>
+    <string name="cache">Clear cache on exit</string>
+    <string name="reflow">Enable text reflow</string>
+    <string name="block">Block images</string>
+    <string name="window">Allow sites to open new windows</string>
+    <string name="cookies">Enable cookies</string>
+    <string name="recommended">Recommended</string>
+    <string name="search">Search engine</string>
+    <string name="search_hint">Search</string>
+    <string name="wideViewPort">Use wide viewport</string>
+    <string name="overViewMode">Load pages in overview mode</string>
+    <string name="restore">Restore lost tabs on start</string>
+    <string name="fullScreenOption">Hide status bar while browsing</string>
+    <string name="clear_cookies">Clear browser cookies</string>
+    <string name="clear_history">Clear browser history</string>
+    <string name="action_download">Download</string>
+    <string name="action_open">Open</string>
+    <string name="dialog_title_share">Share this page</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_blank">Blank page</string>
+    <string name="agent_default">Default</string>
+    <string name="agent_desktop">Desktop</string>
+    <string name="agent_mobile">Mobile</string>
+    <string name="agent_custom">Custom</string>
+    <string name="title_search_engine">Search engine</string>
+    <string name="action_ok">OK</string>
+    <string name="dialog_download">Do you want to download this file? (%1$s)</string>
+    <string name="unknown_size">Unknown size</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_user_agent">User agent</string>
+    <string name="title_download_location">Download location</string>
+    <string name="title_custom_homepage">Custom homepage</string>
+    <string name="action_webpage">Webpage</string>
+    <string name="title_clear_history">Clear history</string>
+    <string name="title_clear_cookies">Clear cookies</string>
+    <string name="dialog_history">Would you like to clear all browser history?</string>
+    <string name="dialog_cookies">Would you like to clear all browser cookies?</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="title_text_size">Text size</string>
+    <string name="title_error">Error</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_url">URL</string>
+    <string name="title_edit_bookmark">Edit bookmark</string>
+    <string name="action_incognito">New incognito tab</string>
+    <string name="action_homepage">Default</string>
+    <string name="action_back">Back</string>
+    <string name="action_find">Find in page</string>
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="cannot_download">Can only download \"http\" or \"https\" URLs.</string>
+    <string name="problem_download">Invalid URL encountered, cannot download</string>
+    <string name="problem_location_download">Cannot download to the specified location</string>
+    <string name="download_no_sdcard_dlg_title">No SD card</string>
+    <string name="download_no_sdcard_dlg_msg">USB storage is required to download the file.</string>
+    <string name="download_sdcard_busy_dlg_title">USB storage unavailable</string>
+    <string name="download_sdcard_busy_dlg_msg">The storage is busy. To allow downloads, touch \'Turn Off USB Storage\' in the notification.</string>
+    <string name="incognito_cookies">Enable cookies in incognito mode</string>
+    <string name="incognito_cookies_pie">Incognito mode runs in a separate process that is reset after each session. Incognito cookie preferences are now controlled by the regular cookie preferences.</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="message_cache_cleared">Cache cleared</string>
+    <string name="message_import">Bookmarks were imported</string>
+    <string name="message_clear_history">History cleared</string>
+    <string name="message_cookies_cleared">Cookies cleared</string>
+    <string name="message_link_copied">Link copied to clipboard</string>
+    <string name="message_blocked_local">Local file has been blocked from loading</string>
+    <string name="suggestion">Search for</string>
+
+    <!-- Ad block -->
+    <string name="block_ads">Block ads</string>
+    <string name="block_ad_source">Hosts file source</string>
+    <string name="block_ad_remote_refresh_frequency_description">For remote hosts file</string>
+    <string name="block_ad_refresh_now">Refresh hosts now</string>
+
+    <string name="block_source_default">Default hosts</string>
+    <string name="block_source_local">Local hosts file</string>
+    <string name="block_source_local_description">File: %1$s</string>
+    <string name="block_source_remote">Remote hosts file</string>
+    <string name="block_source_remote_description">URL: %1$s</string>
+
+    <!-- Common actions -->
+    <string name="action_message_canceled">Action canceled.</string>
+
+    <!-- SSL warnings -->
+    <string name="ssl_warning_dont_ask_again">Don\'t ask again for this browsing session.</string>
+    <string name="message_insecure_connection">Connection to this site is not secure:\n%1$s\nProceed anyway?</string>
+    <string name="message_certificate_date_invalid">Date of certificate is invalid</string>
+    <string name="message_certificate_expired">Certificate is expired</string>
+    <string name="message_certificate_domain_mismatch">Domain in certificate does not match the site domain</string>
+    <string name="message_certificate_invalid">Certificate is invalid</string>
+    <string name="message_certificate_not_yet_valid">Certificate is not yet valid</string>
+    <string name="message_certificate_untrusted">Certificate is not trusted</string>
+
+    <!-- permissions request -->
+
+    <string name="title_form_resubmission">Form resubmission</string>
+    <string name="message_form_resubmission">Would you like to resend the data?</string>
+    <string name="message_location">\nWould like to use your location</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_dont_allow">Don\'t allow</string>
+    <string name="title_sign_in">Sign in</string>
+    <string name="label_realm">Server message: %s</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="search_suggestions">Search suggestions</string>
+    <string name="powered_by_google">Powered by Google</string>
+    <string name="powered_by_duck">Powered by DuckDuckGo</string>
+    <string name="powered_by_baidu">Powered by Baidu</string>
+    <string name="search_suggestions_off">No search suggestions</string>
+    <string name="clear_cookies_exit">Clear cookies on exit</string>
+    <string name="clear_history_exit">Clear history on exit</string>
+    <string name="folder_default">Default</string>
+    <string name="folder_custom">Custom</string>
+    <string name="untitled">Untitled</string>
+    <string name="reopening_recent_tab">Reopened old tab</string>
+    <string name="rendering_mode">Rendering mode</string>
+    <string name="name_inverted">Inverted</string>
+    <string name="name_grayscale">Grayscale</string>
+    <string name="name_inverted_grayscale">Inverted grayscale</string>
+    <string name="name_increase_contrast">Increase contrast</string>
+    <string name="name_normal">Normal</string>
+    <string name="title_file_chooser">File chooser</string>
+    <string name="export_bookmarks">Export bookmarks to backup</string>
+    <string name="import_backup">Import bookmarks from backup</string>
+    <string name="bookmark_export_path">Bookmarks exported to</string>
+    <string name="bookmark_export_failure">Sorry, bookmarks could not be exported!</string>
+    <string name="bookmark_settings">Bookmark Settings</string>
+    <string name="import_bookmark_error">Could not import bookmarks from file</string>
+    <string name="message_bookmark_added">Bookmark added.</string>
+    <string name="title_chooser">Choose a file</string>
+    <string name="settings_general">General Settings</string>
+    <string name="settings_display">Display Settings</string>
+    <string name="settings_privacy">Privacy Settings</string>
+    <string name="close_tab">Close current tab</string>
+    <string name="close_all_tabs">Close all tabs</string>
+    <string name="close_other_tabs">Close other tabs</string>
+    <string name="third_party">Block 3rd party cookies</string>
+    <string name="color_mode">Enable color mode</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="url_contents">URL box contents</string>
+    <string name="text_encoding">Text encoding</string>
+
+    <string name="url_content_domain">Domain (default)</string>
+    <string name="url_content_title">Title</string>
+
+    <string name="settings_black_status_bar">Black status bar</string>
+    <string name="tabs">Tabs</string>
+    <string name="folder">Folder name</string>
+    <string name="action_folder">Folder</string>
+    <string name="title_rename_folder">Rename folder</string>
+    <string name="clear_web_storage">Clear web storage</string>
+    <string name="clear_web_storage_exit">Clear web storage on exit</string>
+    <string name="message_web_storage_cleared">Web storage cleared</string>
+    <string name="tabs_in_drawer">Show tabs in navigation drawer</string>
+    <string name="swap_bookmarks_and_tabs">Swap bookmark and tab drawers</string>
+    <string name="do_not_track">Request \'Do Not Track\'</string>
+    <string name="save_data">Request \'Save-Data\'</string>
+    <string name="remove_identifying_headers">Remove identifying headers</string>
+    <string name="action_add_to_homescreen">Add to home screen</string>
+    <string name="message_added_to_homescreen">Shortcut added to home screen</string>
+    <string name="shortcut_message_failed_to_add">Sorry, your launcher does not support shortcuts.</string>
+    <string name="action_delete_all_bookmarks">Delete all bookmarks</string>
+    <string name="message_open_download_fail">This file doesn\'t exist anymore</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_open_new_tab">Open in new tab</string>
+    <string name="dialog_open_background_tab">Open in background tab</string>
+    <string name="dialog_open_incognito_tab">Open in incognito tab</string>
+    <string name="dialog_remove_bookmark">Remove bookmark</string>
+    <string name="dialog_edit_bookmark">Edit bookmark</string>
+    <string name="dialog_remove_from_history">Remove from history</string>
+    <string name="dialog_download_image">Download image</string>
+    <string name="dialog_copy_link">Copy link</string>
+    <string name="dialog_rename_folder">Rename folder</string>
+    <string name="dialog_remove_folder">Remove folder</string>
+    <string name="dialog_title_close_browser">Close browser</string>
+    <string name="dialog_delete_all_downloads">Delete all downloads</string>
+
+    <!-- Tools dialog -->
+    <!--<string name="dialog_tools_title">Page tools</string>
+    <string name="dialog_toggle_desktop">Toggle desktop user agent</string>
+    <string name="dialog_adblock_enable_for_site">Enable ad block for site</string>
+    <string name="dialog_adblock_disable_for_site">Disable ad block for site</string>-->
+
+    <!-- Search Engines -->
+    <string name="search_engine_custom">Custom URL</string>
+    <string name="search_engine_google">Google</string>
+    <string name="search_engine_ask">Ask</string>
+    <string name="search_engine_bing">Bing</string>
+    <string name="search_engine_yahoo">Yahoo</string>
+    <string name="search_engine_startpage">StartPage</string>
+    <string name="search_engine_startpage_mobile">StartPage Mobile</string>
+    <string name="search_engine_duckduckgo">DuckDuckGo</string>
+    <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
+    <string name="search_engine_baidu">Baidu</string>
+    <string name="search_engine_yandex">Yandex</string>
+
+    <!-- Notifications -->
+    <plurals name="notification_incognito_running_title">
+        <item quantity="one">%1$d incognito tab open</item>
+        <item quantity="other">%1$d incognito tabs open</item>
+    </plurals>
+    <string name="notification_incognito_running_message">Touch to open</string>
+    <string name="notification_incognito_running_description">Ongoing incognito notification</string>
+
+    <!--Ad block -->
+    <string name="ad_block_load_failure">Failed to load hosts from ad blocking source.</string>
+
+    <!-- SSL -->
+    <string name="ssl_info_issued_by">Issued by</string>
+    <string name="ssl_info_issued_to">Issued to</string>
+    <string name="ssl_info_issued_on">Issued on</string>
+    <string name="ssl_info_expires_on">Expires on</string>
+
+    <!-- Search in page -->
+    <string name="search_in_page_query">\'%1$s\'</string>
+
+    <!-- Frozen tabs -->
+    <string name="tab_frozen">Frozen…</string>
+
+    <!-- Search -->
+    <string name="search_insert_suggestion">Insert suggestion</string>
+
+    <string name="tap_more">Tap to show more info</string>
+    <string name="format_size">Format: %1$s Size: %2$s</string>
+
+    <string name="scan_html">Parse HTML</string>
+    <string name="scan_html_summary">Advanced video search in html code</string>
+
+    <string name="video_info">Video info</string>
+
+    <string name="exit">Close browser</string>
+
+    <string name="fslw">First launch wizard</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="rate_app">Rate app</string>
+
+    <string name="rate_gp">Rate on Google Play</string>
+
+    <string name="label_shortcut_new_tab_long">Open browser</string>
+    <string name="label_shortcut_new_tab_short">Open browser</string>
+
+    <string name="privacy_police">Privacy Policy</string>
+
+    <string name="enable_legacy_22">Enable legacy format</string>
+    <string name="enable_legacy_22_sm">Enable the old format for YouTube 720p (id22)</string>
+
+    <string name="plugin">Plugin</string>
+    <string name="plugin_summary">Add-ons to expand the app\'s features</string>
+
+    <string name="experimental">Experimental</string>
+    <string name="experimental_summary">Experimental features</string>
+
+    <string name="attention">Attention</string>
+    <string name="attention_unstable">The following functions are experimental, and the application may be unstable.</string>
+
+    <string name="audioYTLow">Low audio quality</string>
+    <string name="audioYTLow_sm">Show audio formats with low quality</string>
+
+    <string name="update_not_found">Update not found</string>
+
+    <string name="no_item_selected">No item selected</string>
+
+    <string name="stable">STABLE</string>
+    <string name="beta">BETA</string>
+
+    <string name="regional_settings">Regional Settings</string>
+
+    <string name="app_language_title">App language</string>
+    <string name="systems_language">System default</string>
+    <string name="content_language_title">Default content language</string>
+    <string name="default_content_country_title">Default content country</string>
+    <string name="content">Content</string>
+
+    <string name="power_find">Findᴬᴸᴾᴴᴬ</string>
+
+    <string name="release_date">Release date: %1$s</string>
+    <string name="changelog">Changelog</string>
+    <string name="ready_to_download">Ready to download</string>
+
+    <string name="total_mem">Total memory: %1$s</string>
+    <string name="available_mem">Available memory: %1$s</string>
 </resources>

@@ -6,3 +6,9 @@ PowerTube - Клиент youtube-dl для Android
 
 # Translation guide
 
+en.xml - English
+es.xml - Spanish
+kk.xml - Kazakh
+ru.xml - Russian
+sr.xml - Serbian
+uk.xml - Ukrainian

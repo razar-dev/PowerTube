@@ -1,15 +1,12 @@
 {
-  "latestVersion": "4.9.18",
-  "latestVersionCode": 164,
-  "date": "2021.07.13",
-  "url": "https://4pda.to/forum/index.php?showtopic=896845&view=findpost&p=107962742",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.9.18.apk",
+  "latestVersion": "4.9.19",
+  "latestVersionCode": 165,
+  "date": "2021.08.10",
+  "url": "https://4pda.to/forum/index.php?showtopic=896845&view=findpost&p=108595052",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.9.19.apk",
   "releaseNotes": [
-	"- Fixed loading from YouTube",
-	"- Fixed a bug that causes the navigation bar to overlap with the application screen",
-	"- Fixed the display of buttons in the navigation bar",
-	"- Fixed an error that caused excessive load when stopping file loading",
-	"- Improved integration with youtube-dl"
+	"- Fixed download from YouTube",
+	"- Fixed bugs"
     
   ]
 }

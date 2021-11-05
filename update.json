@@ -1,11 +1,11 @@
 {
-  "latestVersion": "4.9.19",
-  "latestVersionCode": 165,
-  "date": "2021.08.10",
-  "url": "https://4pda.to/forum/index.php?showtopic=896845&view=findpost&p=108595052",
-  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_4.9.19.apk",
+  "latestVersion": "5.0.1",
+  "latestVersionCode": 172,
+  "date": "2021.11.04",
+  "url": "https://4pda.to/forum/index.php?showtopic=896845&view=findpost&p=110643203",
+  "apk": "https://github.com/razar-dev/PowerTube/raw/master/update/apk/PowerTube_release_5.0.1.apk",
   "releaseNotes": [
-	"- Fixed download from YouTube",
+	"- Fixed splash screen",
 	"- Fixed bugs"
     
   ]
